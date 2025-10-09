@@ -3,7 +3,7 @@ proxy-providers:
   byu_opok:
     type: http
     path: "./proxy_provider/byu_opok.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/byu_opok.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
