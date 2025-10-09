@@ -83,7 +83,7 @@ jobs:
           # Extract valid domain TLDs
           valid_tlds = []
           for website in df["Website"].dropna():
-              domain = tldextract.extract(website).registered_domain
+              domain = tldextract.extract(website).top_domain_under_public_suffix
               if domain:
                   valid_tlds.append(f'"+.{domain}"')
           
