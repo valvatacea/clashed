@@ -10,7 +10,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 180
   xl_opok:
-    type: file
+    type: http
     path: "./proxy_provider/xl_opok.yaml"
     url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/xl_opok.yaml
     interval: 1440
@@ -19,9 +19,27 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 180
   xl_iflix:
-    type: file
+    type: http
     path: "./proxy_provider/xl_iflix.yaml"
     url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/xl_iflix.yaml
+    interval: 1440
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 180
+  xl_grab:
+    type: http
+    path: "./proxy_provider/xl_grab.yaml"
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/xl_grab.yaml
+    interval: 1440
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 180
+  xl_vidio:
+    type: http
+    path: "./proxy_provider/xl_vidio.yaml"
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/xl_vidio.yaml
     interval: 1440
     health-check:
       enable: true
@@ -53,6 +71,22 @@ proxy-groups:
   - xl_iflix
   url: http://www.gstatic.com/generate_204
   interval: 360
+- name: XL Grab
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - xl_grab
+  url: http://www.gstatic.com/generate_204
+  interval: 360
+- name: XL Vidio
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - xl_vidio
+  url: http://www.gstatic.com/generate_204
+  interval: 360
 - name: BEST-PING
   type: url-test
   disable-udp: false
@@ -60,6 +94,8 @@ proxy-groups:
   - byu_opok
   - xl_opok
   - xl_iflix
+  - xl_grab
+  - xl_vidio
   url: http://www.gstatic.com/generate_204
   interval: 600
 - name: TrafficDirect
@@ -70,6 +106,8 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
+  - XL Grab
+  - XL Vidio
 - name: Direct Multi-WAN
   type: select
   disable-udp: false
@@ -100,15 +138,27 @@ proxy-groups:
   disable-udp: false
   proxies:
   - TrafficDirect
+  - Byu Opok
+  - XL Opok
   - XL Iflix
+  - XL Grab
+  - XL Vidio
 - name: TrafficGaming
   type: select
   disable-udp: false
   proxies:
+  - Byu Opok
+  - XL Opok
   - XL Iflix
+  - XL Grab
+  - XL Vidio
   - TrafficDirect
   use:
+  - byu_opok
+  - xl_opok
   - xl_iflix
+  - xl_grab
+  - xl_vidio
 - name: TrafficAds
   type: select
   disable-udp: false
@@ -117,6 +167,8 @@ proxy-groups:
   - XL Opok
   - Byu Opok
   - XL Iflix
+  - XL Grab
+  - XL Vidio
   - DIRECT
 - name: TrafficPorn
   type: select
@@ -126,6 +178,8 @@ proxy-groups:
   - XL Opok
   - Byu Opok
   - XL Iflix
+  - XL Grab
+  - XL Vidio
   - DIRECT
 - name: TrafficUmum
   type: select
@@ -135,6 +189,8 @@ proxy-groups:
   - XL Opok
   - Byu Opok
   - XL Iflix
+  - XL Grab
+  - XL Vidio
   - Direct Multi-WAN
   url: http://www.gstatic.com/generate_204
   interval: '30'
@@ -146,6 +202,8 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
+  - XL Grab
+  - XL Vidio
   - TrafficDirect
   url: http://www.gstatic.com/generate_204
   interval: '30'
@@ -157,6 +215,8 @@ proxy-groups:
   - XL Opok
   - Byu Opok
   - XL Iflix
+  - XL Grab
+  - XL Vidio
   - Direct Multi-WAN
   url: http://www.gstatic.com/generate_204
   interval: '30'
@@ -168,6 +228,8 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
+  - XL Grab
+  - XL Vidio
   - Direct Multi-WAN
   url: http://www.gstatic.com/generate_204
   interval: '30'
