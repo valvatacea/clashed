@@ -14,3 +14,11 @@
   - IP-CIDR,54.242.0.0/15
   - IP-CIDR,69.171.235.0/16
   - IP-CIDR,75.126.150.0/16
+
+  - DOMAIN-SUFFIX,static.whatsapp.net
+  - DOMAIN-SUFFIX,docker.whatsapp.biz
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
+  - DOMAIN-SUFFIX,g.whatsapp.net
+  - DOMAIN-SUFFIX,v.whatsapp.net
+  - DOMAIN-SUFFIX,mmg.whatsapp.net
