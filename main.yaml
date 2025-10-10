@@ -497,7 +497,7 @@ profile:
   store-fake-ip: true
 rules:
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-- DST-PORT,22,TrafficDirect
+# - DST-PORT,22,TrafficDirect
 - RULE-SET,rule_lancidr,DIRECT,no-resolve
 - RULE-SET,rule_falsepositive,TrafficUmum
 - RULE-SET,rule_malicious,REJECT
