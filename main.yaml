@@ -21,7 +21,7 @@ proxy-providers:
   xl_tiktok:
     type: http
     path: "./proxy_provider/xl_tiktok.yaml"
-    url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/xl_tiktok.yaml
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/xl%20tiktok.yaml
     interval: 1440
     health-check:
       enable: true
