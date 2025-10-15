@@ -104,22 +104,6 @@ proxies:
     headers:
       Host: www.vlessworker.xyz
   udp: true
-- name: SG Epsilon
-  type: vmess
-  server: 162.159.128.79
-  port: 443
-  uuid: a0779124-aa23-40b5-9149-05fb559a76cd
-  alterId: 0
-  cipher: zero
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: tricks.nyylstore.xyz
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: tricks.nyylstore.xyz
-  udp: true
 - name: VLESS TLS [ IG ]
   server: 162.159.128.79
   port: 443
