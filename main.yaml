@@ -18,6 +18,15 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 180
+  xl_tiktok:
+    type: http
+    path: "./proxy_provider/xl_tiktok.yaml"
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/xl_tiktok.yaml
+    interval: 1440
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 180
   xl_iflix:
     type: http
     path: "./proxy_provider/xl_iflix.yaml"
@@ -63,6 +72,14 @@ proxy-groups:
   - xl_opok
   url: http://www.gstatic.com/generate_204
   interval: 360
+- name: XL Tiktok
+  type: select
+#  strategy: round-robin
+  disable-udp: false
+  use:
+  - xl_tiktok
+  url: http://www.gstatic.com/generate_204
+  interval: 360
 - name: XL Iflix
   type: select
 #  strategy: round-robin
@@ -95,6 +112,7 @@ proxy-groups:
   proxies:
   - Byu Opok
   - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -109,6 +127,7 @@ proxy-groups:
   proxies:
   - Byu Opok
   - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -123,6 +142,7 @@ proxy-groups:
   proxies:
   - Byu Opok
   - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -137,6 +157,7 @@ proxy-groups:
   proxies:
   - Byu Opok
   - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -151,6 +172,7 @@ proxy-groups:
   proxies:
   - Byu Opok
   - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -165,6 +187,7 @@ proxy-groups:
   proxies:
   - Byu Opok
   - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -179,6 +202,7 @@ proxy-groups:
   proxies:
   - Byu Opok
   - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -195,6 +219,7 @@ proxy-groups:
   - DIRECT
   - Byu Opok
   - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -204,6 +229,7 @@ proxy-groups:
   proxies:
   - Byu Opok
   - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -211,6 +237,7 @@ proxy-groups:
   use:
   - byu_opok
   - xl_opok
+  - xl_tiktok
   - xl_iflix
   - xl_grab
   - xl_vidio
@@ -219,8 +246,9 @@ proxy-groups:
   disable-udp: false
   proxies:
   - REJECT
-  - XL Opok
   - Byu Opok
+  - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -230,8 +258,9 @@ proxy-groups:
   disable-udp: false
   proxies:
   - REJECT
-  - XL Opok
   - Byu Opok
+  - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -243,6 +272,7 @@ proxy-groups:
   proxies:
   - Byu Opok
   - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -257,6 +287,7 @@ proxy-groups:
   proxies:
   - Byu Opok
   - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -269,8 +300,9 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
-  - XL Opok
   - Byu Opok
+  - XL Opok
+  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
