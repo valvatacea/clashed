@@ -1,35 +1,5 @@
 proxies:
-- name: XRAY_VLESS_TLS_free2 [3010]
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: vless
-  uuid: ae5ee55f-7077-47d9-93e0-0f709a2718f5
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: indo.parael.me
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: indo.parael.me
-  udp: true
-- name: ID MVNET VLESS LIFETIME
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: vless
-  uuid: 6f02eec7-d231-4243-ad50-df59d8063d84
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: olinol.de5.net.speed.olinol.de5.net
-  network: ws
-  ws-opts:
-    path: /lifetime
-    headers:
-      Host: olinol.de5.net.speed.olinol.de5.net
-  udp: true
-- name: 🇮🇩 ID - CV Rumahweb Indonesia
+- name: 🇸🇬 SG - Oracle Corporation
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
@@ -37,29 +7,14 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: free.mediafairy.web.id
+  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   network: ws
   ws-opts:
-    path: /203.194.112.119-2053
+    path: /158.178.246.142-61731
     headers:
-      Host: free.mediafairy.web.id
+      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   udp: true
-- name: 🇺🇸 - Microsoft Corporation
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: vless
-  uuid: 1b314859-3219-49b6-9a31-5c45b2896e90
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: www.vlessworker.xyz
-  network: ws
-  ws-opts:
-    path: /20.121.115.188-443
-    headers:
-      Host: www.vlessworker.xyz
-  udp: true
-- name: 🇮🇩 ID - PT Pusat Media Indonesia
+- name: 🇸🇬 SG - Epsilon Singapore Network
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
@@ -67,55 +22,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: free.mediafairy.web.id
+  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   network: ws
   ws-opts:
-    path: /103.6.207.108-8080
+    path: /103.229.96.157-443
     headers:
-      Host: free.mediafairy.web.id
-  udp: true
-- name: 🇸🇬 - OVH SAS
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: vless
-  uuid: bbe13818-3d82-4127-aa2a-cbc209a6b7e4
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: vpn.vpnjatim.pp.ua
-  network: ws
-  ws-opts:
-    path: /51.79.134.207-443
-    headers:
-      Host: vpn.vpnjatim.pp.ua
-  udp: true
-- name: 🇸🇬 - DigitalOcean LLC
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: vless
-  uuid: bbe13818-3d82-4127-aa2a-cbc209a6b7e4
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: vpn.vpnjatim.pp.ua
-  network: ws
-  ws-opts:
-    path: /104.248.145.216-443
-    headers:
-      Host: vpn.vpnjatim.pp.ua
-  udp: true
-- name: TROJAN_WS_free3 [3010]
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: trojan
-  password: 292988d4-01c4-46a6-bf0f-15d3f73633f8
-  skip-cert-verify: true
-  sni: indo.parael.me
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: indo.parael.me
+      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   udp: true
 - name: 🇸🇬 SG - 6 COLLYER QUAY
   server: api24-normal-alisg.tiktokv.com
@@ -125,86 +37,56 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: free.mediafairy.web.id
+  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   network: ws
   ws-opts:
     path: /43.134.167.135-9950
     headers:
-      Host: free.mediafairy.web.id
+      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   udp: true
-- name: VLESS TLS [ IG ]
+- name: 🇮🇩 ID - 21F Ciputra World 1 DBS Tower JalanProf DR Satrio Kav 35 Jakarta 12940
+    Indonesia
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
-  uuid: 548c40e7-6666-4270-ad02-9d93c1d04141
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: myxl.dpdns.org
+  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   network: ws
   ws-opts:
-    path: /Club-Gratis/
+    path: /149.129.250.8-443
     headers:
-      Host: myxl.dpdns.org
+      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   udp: true
-- name: 🇮🇩 - Amazoncom Inc
+- name: 🇮🇩 ID - CV Rumahweb Indonesia
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
-  uuid: 1b314859-3219-49b6-9a31-5c45b2896e90
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: www.vlessworker.xyz
+  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   network: ws
   ws-opts:
-    path: /43.218.77.16-1443
+    path: /203.194.112.119-2053
     headers:
-      Host: www.vlessworker.xyz
+      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   udp: true
-- name: VMESS_TLS_free [3010]
-  type: vmess
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  uuid: 440b57d5-bacb-42b3-94c8-b9829cd2a599
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: indo.parael.me
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: indo.parael.me
-  udp: true
-- name: ID MVNET VLESS LIFETIME-47
+- name: 🇮🇩 ID - PT Pusat Media Indonesia
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
-  uuid: 6f02eec7-d231-4243-ad50-df59d8063d84
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: speed.olinol.de5.net
+  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   network: ws
   ws-opts:
-    path: /lifetime
+    path: /103.6.207.108-8080
     headers:
-      Host: speed.olinol.de5.net
-  udp: true
-- name: 🇮🇩 - PT Telekomunikasi Indonesia
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: vless
-  uuid: 1b314859-3219-49b6-9a31-5c45b2896e90
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: www.vlessworker.xyz
-  network: ws
-  ws-opts:
-    path: /36.95.152.58-12137
-    headers:
-      Host: www.vlessworker.xyz
+      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   udp: true
