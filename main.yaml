@@ -80,10 +80,10 @@ proxy-groups:
   type: select
 #  strategy: round-robin
   disable-udp: false
-  proxies:
-  - DIRECT
   use:
   - xl_tiktok
+  proxies:
+  - DIRECT
   url: http://www.gstatic.com/generate_204
   interval: 360
 - name: XL Iflix
