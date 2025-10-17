@@ -60,6 +60,8 @@ proxy-groups:
   type: select
 #  strategy: round-robin
   disable-udp: false
+  proxies:
+  DIRECT
   use:
   - byu_opok
   url: http://www.gstatic.com/generate_204
@@ -68,6 +70,8 @@ proxy-groups:
   type: select
 #  strategy: round-robin
   disable-udp: false
+  proxies:
+  DIRECT
   use:
   - xl_opok
   url: http://www.gstatic.com/generate_204
@@ -76,6 +80,8 @@ proxy-groups:
   type: select
 #  strategy: round-robin
   disable-udp: false
+  proxies:
+  DIRECT
   use:
   - xl_tiktok
   url: http://www.gstatic.com/generate_204
@@ -84,6 +90,8 @@ proxy-groups:
   type: select
 #  strategy: round-robin
   disable-udp: false
+  proxies:
+  DIRECT
   use:
   - xl_iflix
   url: http://www.gstatic.com/generate_204
@@ -92,6 +100,8 @@ proxy-groups:
   type: select
 #  strategy: round-robin
   disable-udp: false
+  proxies:
+  DIRECT
   use:
   - xl_grab
   url: http://www.gstatic.com/generate_204
@@ -100,6 +110,8 @@ proxy-groups:
   type: select
 #  strategy: round-robin
   disable-udp: false
+  proxies:
+  DIRECT
   use:
   - xl_vidio
   url: http://www.gstatic.com/generate_204
