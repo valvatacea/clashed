@@ -165,6 +165,21 @@ proxy-groups:
   - REJECT
   url: http://www.gstatic.com/generate_204
   interval: '30'
+- name: TrafficYoutube
+  type: select
+  lazy: true
+  disable-udp: false
+  proxies:
+  - Byu Opok
+  - XL Opok
+  - XL Tiktok
+  - XL Iflix
+  - XL Grab
+  - XL Vidio
+  - DIRECT
+  - REJECT
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
 - name: TrafficTiktok
   type: select
   lazy: true
@@ -557,7 +572,7 @@ rules:
 - RULE-SET,rule_iqiyiinter,TrafficStreaming
 - RULE-SET,rule_primevideo,TrafficStreaming
 - RULE-SET,rule_twitch,TrafficStreaming
-- RULE-SET,rule_Youtube,TrafficStreaming
+- RULE-SET,rule_Youtube,TrafficYoutube
 # - RULE-SET,rule_Sosmed,TrafficSosmed
 - RULE-SET,rule_line,TrafficLine
 - RULE-SET,rule_whatsapp,TrafficWhatsApp
