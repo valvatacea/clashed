@@ -122,9 +122,9 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - XL Tiktok
   - Byu Opok
   - XL Opok
-  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -137,9 +137,9 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - XL Tiktok
   - Byu Opok
   - XL Opok
-  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -152,9 +152,9 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - XL Tiktok
   - Byu Opok
   - XL Opok
-  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -167,9 +167,9 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - XL Tiktok
   - Byu Opok
   - XL Opok
-  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -182,9 +182,9 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - XL Tiktok
   - Byu Opok
   - XL Opok
-  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -197,9 +197,9 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - XL Tiktok
   - Byu Opok
   - XL Opok
-  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -212,9 +212,9 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - XL Tiktok
   - Byu Opok
   - XL Opok
-  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -227,9 +227,55 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - XL Tiktok
   - Byu Opok
   - XL Opok
+  - XL Iflix
+  - XL Grab
+  - XL Vidio
+  - DIRECT
+  - REJECT
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
+  
+- name: TrafficStreaming
+  type: select
+  lazy: true
+  disable-udp: false
+  proxies:
   - XL Tiktok
+  - Byu Opok
+  - XL Opok
+  - XL Iflix
+  - XL Grab
+  - XL Vidio
+  - DIRECT
+  - REJECT
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
+- name: TrafficUmum
+  type: select
+  lazy: true
+  disable-udp: false
+  proxies:
+  - XL Tiktok
+  - Byu Opok
+  - XL Opok
+  - XL Iflix
+  - XL Grab
+  - XL Vidio
+  - DIRECT
+  - REJECT
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
+- name: TrafficIndo
+  type: select
+  lazy: true
+  disable-udp: false
+  proxies:
+  - XL Tiktok
+  - Byu Opok
+  - XL Opok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -244,9 +290,9 @@ proxy-groups:
   disable-udp: false
   proxies:
   - DIRECT
+  - XL Tiktok
   - Byu Opok
   - XL Opok
-  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -254,9 +300,9 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
+  - XL Tiktok
   - Byu Opok
   - XL Opok
-  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -273,9 +319,9 @@ proxy-groups:
   disable-udp: false
   proxies:
   - REJECT
+  - XL Tiktok
   - Byu Opok
   - XL Opok
-  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
@@ -285,58 +331,13 @@ proxy-groups:
   disable-udp: false
   proxies:
   - REJECT
+  - XL Tiktok
   - Byu Opok
   - XL Opok
-  - XL Tiktok
   - XL Iflix
   - XL Grab
   - XL Vidio
   - DIRECT
-- name: TrafficUmum
-  type: select
-  lazy: true
-  disable-udp: false
-  proxies:
-  - Byu Opok
-  - XL Opok
-  - XL Tiktok
-  - XL Iflix
-  - XL Grab
-  - XL Vidio
-  - DIRECT
-  - REJECT
-  url: http://www.gstatic.com/generate_204
-  interval: '30'
-- name: TrafficIndo
-  type: select
-  lazy: true
-  disable-udp: false
-  proxies:
-  - Byu Opok
-  - XL Opok
-  - XL Tiktok
-  - XL Iflix
-  - XL Grab
-  - XL Vidio
-  - DIRECT
-  - REJECT
-  url: http://www.gstatic.com/generate_204
-  interval: '30'
-- name: TrafficStreaming
-  type: select
-  lazy: true
-  disable-udp: false
-  proxies:
-  - Byu Opok
-  - XL Opok
-  - XL Tiktok
-  - XL Iflix
-  - XL Grab
-  - XL Vidio
-  - DIRECT
-  - REJECT
-  url: http://www.gstatic.com/generate_204
-  interval: '30'
   
 # - name: TrafficDirect
 #   type: select
