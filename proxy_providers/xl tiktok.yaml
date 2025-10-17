@@ -1,4 +1,50 @@
 proxies:
+- name: 🇮🇩 ID - CV Rumahweb Indonesia
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+  network: ws
+  ws-opts:
+    path: /203.194.112.119-2053
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+  udp: true
+- name: 🇮🇩 ID - PT Pusat Media Indonesia
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+  network: ws
+  ws-opts:
+    path: /103.6.207.108-8080
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+  udp: true
+- name: 🇮🇩 ID - 21F Ciputra World 1 DBS Tower JalanProf DR Satrio Kav 35 Jakarta 12940
+    Indonesia
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+  network: ws
+  ws-opts:
+    path: /149.129.250.8-443
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+  udp: true
 - name: 🇸🇬 SG - Oracle Corporation
   server: api24-normal-alisg.tiktokv.com
   port: 443
@@ -44,49 +90,4 @@ proxies:
     headers:
       Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
   udp: true
-- name: 🇮🇩 ID - 21F Ciputra World 1 DBS Tower JalanProf DR Satrio Kav 35 Jakarta 12940
-    Indonesia
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: vless
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
-  network: ws
-  ws-opts:
-    path: /149.129.250.8-443
-    headers:
-      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
-  udp: true
-- name: 🇮🇩 ID - CV Rumahweb Indonesia
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: vless
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
-  network: ws
-  ws-opts:
-    path: /203.194.112.119-2053
-    headers:
-      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
-  udp: true
-- name: 🇮🇩 ID - PT Pusat Media Indonesia
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: vless
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
-  network: ws
-  ws-opts:
-    path: /103.6.207.108-8080
-    headers:
-      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
-  udp: true
+
