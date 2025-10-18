@@ -392,7 +392,7 @@ external-ui: "/data/adb/clashed/ui"
 experimental:
   ignore-resolve-fail: true
 dns:
-  enable: true
+  enable: false
   ipv6: true
   enhanced-mode: fake-ip
   listen: 0.0.0.0:7874
