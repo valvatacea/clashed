@@ -1,93 +1,76 @@
 proxies:
-- name: 🇮🇩 ID - CV Rumahweb Indonesia
-  server: api24-normal-alisg.tiktokv.com
+- name: 🇮🇩 - PT Mitra Visioner Pratama
+  server: free.fridom.qzz.io
   port: 443
   type: vless
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  uuid: 9e3d93cb-b312-4d19-9511-7be9ea12cca7
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+  servername: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
   network: ws
   ws-opts:
-    path: /203.194.112.119-2053
+    path: /172.252.8.168-443
     headers:
-      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+      Host: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
   udp: true
-- name: 🇮🇩 ID - PT Pusat Media Indonesia
+- name: 🇮🇩 - PT Telekomunikasi Indonesia
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  uuid: 520c88f4-f3f9-4260-8b93-e319c4636679
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+  servername: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
   network: ws
   ws-opts:
-    path: /103.6.207.108-8080
+    path: /36.95.152.58-12137
     headers:
-      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+      Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
   udp: true
-- name: 🇮🇩 ID - 21F Ciputra World 1 DBS Tower JalanProf DR Satrio Kav 35 Jakarta 12940
-    Indonesia
+- name: 🇸🇬 - OVH SAS
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  uuid: 9e3d93cb-b312-4d19-9511-7be9ea12cca7
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+  servername: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
   network: ws
   ws-opts:
-    path: /149.129.250.8-443
+    path: /51.79.158.58-443
     headers:
-      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+      Host: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
   udp: true
-- name: 🇸🇬 SG - Oracle Corporation
+- name: 🇮🇩 - Amazoncom Inc
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  uuid: 520c88f4-f3f9-4260-8b93-e319c4636679
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+  servername: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
   network: ws
   ws-opts:
-    path: /158.178.246.142-61731
+    path: /43.218.77.16-1443
     headers:
-      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+      Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
   udp: true
-- name: 🇸🇬 SG - Epsilon Singapore Network
+- name: 🇮🇩 - CV Rumahweb Indonesia
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  uuid: 9e3d93cb-b312-4d19-9511-7be9ea12cca7
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+  servername: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
   network: ws
   ws-opts:
-    path: /103.229.96.157-443
+    path: /203.194.112.119-8443
     headers:
-      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
+      Host: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
   udp: true
-- name: 🇸🇬 SG - 6 COLLYER QUAY
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: vless
-  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
-  network: ws
-  ws-opts:
-    path: /43.134.167.135-9950
-    headers:
-      Host: api24-normal-alisg.tiktokv.com.free.mediafairy.web.id
-  udp: true
-
