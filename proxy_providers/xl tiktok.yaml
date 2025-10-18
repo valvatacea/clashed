@@ -1,0 +1,76 @@
+proxies:
+- name: 🇮🇩 - PT Mitra Visioner Pratama
+  server: free.fridom.qzz.io
+  port: 443
+  type: vless
+  uuid: 9e3d93cb-b312-4d19-9511-7be9ea12cca7
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
+  network: ws
+  ws-opts:
+    path: /172.252.8.168-443
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
+  udp: true
+- name: 🇮🇩 - PT Telekomunikasi Indonesia
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: 520c88f4-f3f9-4260-8b93-e319c4636679
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
+  network: ws
+  ws-opts:
+    path: /36.95.152.58-12137
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
+  udp: true
+- name: 🇸🇬 - OVH SAS
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: 9e3d93cb-b312-4d19-9511-7be9ea12cca7
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
+  network: ws
+  ws-opts:
+    path: /51.79.158.58-443
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
+  udp: true
+- name: 🇮🇩 - Amazoncom Inc
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: 520c88f4-f3f9-4260-8b93-e319c4636679
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-1443
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
+  udp: true
+- name: 🇮🇩 - CV Rumahweb Indonesia
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: 9e3d93cb-b312-4d19-9511-7be9ea12cca7
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
+  network: ws
+  ws-opts:
+    path: /203.194.112.119-8443
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.free.fridom.qzz.io
+  udp: true
