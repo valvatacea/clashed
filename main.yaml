@@ -387,7 +387,7 @@ external-controller: 0.0.0.0:9090
 secret: '123456'
 bind-address: "*"
 # external-ui: "/usr/share/openclash/ui"
-external-ui: "/data/adb/clashed/ui"
+# external-ui: "/data/adb/clashed/ui"
 # external-ui-url: https://yacd.metacubex.one/
 experimental:
   ignore-resolve-fail: true
