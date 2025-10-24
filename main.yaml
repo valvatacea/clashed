@@ -389,7 +389,7 @@ bind-address: "*"
 # external-ui: "/usr/share/openclash/ui"
 # external-ui: "/data/adb/box/clash/dashboard/zashboard"
 # external-ui: "./dashboard/zashboard"
-external-ui-url: https://yacd.metacubex.one/
+# external-ui-url: https://yacd.metacubex.one/
 # external-ui-url: https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip
 experimental:
   ignore-resolve-fail: true
