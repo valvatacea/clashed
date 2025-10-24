@@ -387,8 +387,9 @@ external-controller: 0.0.0.0:9090
 secret: '123456'
 bind-address: "*"
 # external-ui: "/usr/share/openclash/ui"
-# external-ui: "/data/adb/clashed/ui"
+external-ui: "/data/adb/box/clash/dashboard/zashboard"
 # external-ui-url: https://yacd.metacubex.one/
+external-ui-url: https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip
 experimental:
   ignore-resolve-fail: true
 dns:
