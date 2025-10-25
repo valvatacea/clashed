@@ -75,7 +75,6 @@ proxies:
     headers:
       Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
   udp: true
-
 # mediafairy
 - name: ID PT Telekomunikasi Indonesia
   server: api24-normal-alisg.tiktokv.com
