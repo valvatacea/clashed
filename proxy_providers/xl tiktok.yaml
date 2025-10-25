@@ -1,4 +1,5 @@
 proxies:
+# vlessworker
 - name: 🇮🇩 - PT Mitra Visioner Pratama
   server: api24-normal-alisg.tiktokv.com
   port: 443
@@ -75,19 +76,79 @@ proxies:
       Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
   udp: true
 
-- name: 2 🇮🇩 CV. Rumahweb Indonesia WS TLS [mikey]
-  type: vless
+# mediafairy
+- name: ID PT Telekomunikasi Indonesia
   server: api24-normal-alisg.tiktokv.com
   port: 443
-  uuid: 89506dc9-479e-4dc5-bde6-94cb4942e2f9
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.mikey.ajiez.biz.id
+  servername: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
   network: ws
-  udp: true
-  xudp: true
   ws-opts:
-    path: /203.194.112.119-8443
+    path: /36.95.152.58-12137
     headers:
-      Host: api24-normal-alisg.tiktokv.com.mikey.ajiez.biz.id
+      Host: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  udp: true
+- name: ID CV. Rumahweb Indonesia
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  network: ws
+  ws-opts:
+    path: /203.194.112.119-2053
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  udp: true
+- name: ID CV. Rumahweb Indonesia-33
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  network: ws
+  ws-opts:
+    path: /203.194.112.119-2053
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  udp: true
+- name: ID PT Pusat Media Indonesia
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  network: ws
+  ws-opts:
+    path: /103.6.207.108-8080
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  udp: true
+- name: ID Lightnode Limited
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  network: ws
+  ws-opts:
+    path: /156.244.1.250-8443
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  udp: true
