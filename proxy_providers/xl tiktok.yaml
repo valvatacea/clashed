@@ -74,3 +74,20 @@ proxies:
     headers:
       Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
   udp: true
+
+- name: 2 🇮🇩 CV. Rumahweb Indonesia WS TLS [mikey]
+  type: vless
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  uuid: 89506dc9-479e-4dc5-bde6-94cb4942e2f9
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.mikey.ajiez.biz.id
+  network: ws
+  udp: true
+  xudp: true
+  ws-opts:
+    path: /203.194.112.119-8443
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.mikey.ajiez.biz.id
