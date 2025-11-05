@@ -84,12 +84,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   network: ws
   ws-opts:
     path: /36.95.152.58-12137
     headers:
-      Host: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   udp: true
 - name: ID CV. Rumahweb Indonesia
   server: api24-normal-alisg.tiktokv.com
@@ -99,12 +99,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   network: ws
   ws-opts:
     path: /203.194.112.119-2053
     headers:
-      Host: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   udp: true
 - name: ID CV. Rumahweb Indonesia-33
   server: api24-normal-alisg.tiktokv.com
@@ -114,12 +114,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   network: ws
   ws-opts:
     path: /203.194.112.119-2053
     headers:
-      Host: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   udp: true
 - name: ID PT Pusat Media Indonesia
   server: api24-normal-alisg.tiktokv.com
@@ -129,12 +129,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   network: ws
   ws-opts:
     path: /103.6.207.108-8080
     headers:
-      Host: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   udp: true
 - name: ID Lightnode Limited
   server: api24-normal-alisg.tiktokv.com
@@ -144,12 +144,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   network: ws
   ws-opts:
     path: /156.244.1.250-8443
     headers:
-      Host: api24-normal-alisg.tiktokv.com.javsubindo.dpdns.org
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   udp: true
 - name: natanvpn
   type: vless
