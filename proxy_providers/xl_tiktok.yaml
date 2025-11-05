@@ -30,7 +30,7 @@ proxies:
     headers:
       Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   udp: true
-- name: ID CV. Rumahweb Indonesia-33
+- name: ID 21/F
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
@@ -41,7 +41,7 @@ proxies:
   servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   network: ws
   ws-opts:
-    path: /203.194.112.119-2053
+    path: /149.129.250.8-443
     headers:
       Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   udp: true
