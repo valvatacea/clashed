@@ -151,7 +151,7 @@ proxies:
     headers:
       Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   udp: true
-- name: natanvpn
+- name: natanvpn 1
   type: vless
   server: api24-normal-alisg.tiktokv.com
   port: 443
@@ -167,7 +167,7 @@ proxies:
     path: /vless
     headers:
       Host: api24-normal-alisg.tiktokv.com.3.round.web.id
-- name: natanvpn
+- name: natanvpn 2
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
@@ -182,7 +182,7 @@ proxies:
     headers:
       Host: api24-normal-alisg.tiktokv.com.2.round.web.id
   udp: true
-- name: natanvpn
+- name: natanvpn 3
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
