@@ -75,81 +75,102 @@ proxies:
     headers:
       Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   udp: true
-# vlessworker
-- name: 🇮🇩 - PT Mitra Visioner Pratama
-  server: api24-normal-alisg.tiktokv.com
-  port: 443
-  type: vless
-  uuid: 520c88f4-f3f9-4260-8b93-e319c4636679
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
-  network: ws
+# @lsvllyyy
+alisg.tiktokv.com.lsvly.qzz.io
   ws-opts:
-    path: /172.252.8.168-443
+    path: /sg-melbi
     headers:
-      Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
   udp: true
-- name: 🇮🇩 - Amazoncom Inc
+- name: (SG) Hetzner Online 🇸🇬
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
-  uuid: 520c88f4-f3f9-4260-8b93-e319c4636679
-  cipher: auto
+  uuid: 5b6771f4-8d6b-4037-b0e3-b4d46fdff05e
+  cipher: none
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
   network: ws
+  servername: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
   ws-opts:
-    path: /43.218.77.16-1443
+    path: /sg-hzr
     headers:
-      Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
   udp: true
-- name: 🇮🇩 - CV Rumahweb Indonesia
+- name: (SG) Misaka Network 🇸🇬
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
-  uuid: 520c88f4-f3f9-4260-8b93-e319c4636679
-  cipher: auto
+  uuid: 6af3c8c4-72be-48af-90ad-27cbb9a5af1b
+  cipher: none
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
   network: ws
+  servername: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
   ws-opts:
-    path: /203.194.112.119-8443
+    path: /sg-msk
     headers:
-      Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
   udp: true
-- name: 🇮🇩 - PT Telekomunikasi Indonesia
+- name: (SG) Contabo Asia 🇸🇬
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
-  uuid: 520c88f4-f3f9-4260-8b93-e319c4636679
-  cipher: auto
+  uuid: 974895bc-bd2d-4a15-999b-5562be9a062e
+  cipher: none
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
   network: ws
+  servername: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
   ws-opts:
-    path: /36.95.152.58-12137
+    path: /sg-cntb
     headers:
-      Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
   udp: true
-- name: 🇸🇬 - OVH SAS
+- name: (SG) Amazon.com, Inc 🇸🇬
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: vless
-  uuid: 520c88f4-f3f9-4260-8b93-e319c4636679
-  cipher: auto
+  uuid: 441a07a8-141d-4915-9e25-e01ae0fb72f5
+  cipher: none
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
   network: ws
+  servername: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
   ws-opts:
-    path: /51.79.158.58-443
+    path: /sg-amz
     headers:
-      Host: api24-normal-alisg.tiktokv.com.ayo.ngopi.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
+  udp: true
+- name: (SG) GREEN FLOID 🇸🇬
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: fb76f365-5df0-46c2-9fe2-c45cf3e5b21d
+  cipher: none
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
+  ws-opts:
+    path: /sg-green
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
+  udp: true
+- name: Random ISP
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: 36616eb5-7dc8-477d-964b-f40222a072b7
+  cipher: none
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
+  ws-opts:
+    path: /random
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.lsvly.qzz.io
   udp: true
 # natanfree
 - name: natanvpn 1
