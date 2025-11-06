@@ -198,4 +198,18 @@ proxies:
     headers:
       Host: api24-normal-alisg.tiktokv.com.1.round.web.id
   udp: true
-  
+- name: natanvpn 4
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: e9cf800f-67b0-4a3a-882f-fd3532e7f307
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.4.round.web.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.4.round.web.id
+  udp: true
