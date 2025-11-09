@@ -1,31 +1,31 @@
 proxies:
-  - name: CV. Rumahweb 🇮🇩
-    server: ovo.id
-    port: 80
-    type: vless
-    uuid: 7577025e-2e67-4aa5-958a-ba179cfc4849
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: aio.loophole.biz.id
-    network: ws
-    ws-opts:
-      path: /aioproxybot/203.194.112.119-8443
-      headers:
-        Host: aio.loophole.biz.id.
-    udp: true
-  - name: Shenzhen Tencent 🇯🇵
-    server: ovo.id
-    port: 80
-    type: vless
-    uuid: ef149c00-2a47-4209-8f82-586342adb4d2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: aio.loophole.biz.id
-    network: ws
-    ws-opts:
-      path: /aioproxybot/43.163.207.12-52025
-      headers:
-        Host: aio.loophole.biz.id
-    udp: true
+- name: VLESS TLS [ IG ]
+  server: ovo.id
+  port: 80
+  type: vless
+  uuid: 548c40e7-6666-4270-ad02-9d93c1d04141
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: myxl.dpdns.org
+  network: ws
+  ws-opts:
+    path: /Club-Gratis/
+    headers:
+      Host: myxl.dpdns.org
+  udp: true
+- name: SG Epsilon
+  type: vmess
+  server: ovo.id
+  port: 80
+  uuid: a0779124-aa23-40b5-9149-05fb559a76cd
+  alterId: 0
+  cipher: zero
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: tricks.nyylstore.xyz
+  udp: true
