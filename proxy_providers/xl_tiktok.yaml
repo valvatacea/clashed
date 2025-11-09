@@ -332,6 +332,51 @@ proxies:
       Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 # natanfree
+- name: natanvpn 1
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: 26dfae47-5055-4ea2-9a62-af76a40eff4e
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.1.round.web.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.1.round.web.id
+  udp: true
+- name: natanvpn 2
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: 1ada304e-30fd-47b9-873f-23a64de938da
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.2.round.web.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.2.round.web.id
+  udp: true
+- name: natanvpn 3
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: c050bf62-2c56-4383-bae4-7ef72f21eb64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.3.round.web.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.3.round.web.id
+  udp: true
 - name: natanvpn 5
   server: api24-normal-alisg.tiktokv.com
   port: 443
@@ -346,4 +391,19 @@ proxies:
     path: /vless
     headers:
       Host: api24-normal-alisg.tiktokv.com.5.round.web.id
+  udp: true
+- name: natanvpn 6
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: 6be8c6b3-3806-4a97-a647-0572a1dbf6c3
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.6.round.web.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.6.round.web.id
   udp: true
