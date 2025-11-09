@@ -80,7 +80,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: b942b52a-f073-49de-b5c8-3330c30b8931
+  uuid: 769b368d-962e-4e2e-a619-ed15376e59dd
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -95,7 +95,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: 401bba68-3be2-42a1-a972-350994b8b2b5
+  uuid: 7597c3b0-7061-43a7-bd3e-b1f548ba23bc
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -110,7 +110,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: abb97997-599a-46d7-a827-52b085a94f51
+  uuid: c3eb78fb-3211-4f9b-832b-d2431611f15e
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -125,7 +125,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: 6f100c09-68b9-4c3c-944c-797fd6031b9b
+  uuid: 497eaa03-fc51-4a11-860e-94b0ec0e487d
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -140,7 +140,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: 5909caac-75b4-416a-8ef4-8a2f8900ee6e
+  uuid: 589c5f4e-0ba4-4f84-9c42-748b94da633b
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -155,7 +155,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: 331955c9-f2dc-42cd-81d5-2435cc55016c
+  uuid: 119a7ef4-bbff-4469-b4c0-68c162468ccf
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -170,7 +170,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: b7704264-9d05-4c30-aace-1489a2bc3c9f
+  uuid: 6607a8ee-f282-48a5-b8a6-d89a2e36616e
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -185,7 +185,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: e637951c-fc4f-4078-8c7d-3939f28f35de
+  uuid: 1ad246fb-7e09-4a0b-a6ef-18db9d247b45
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -200,7 +200,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: db4817a7-ecbc-4ea7-abfa-851326fbcde1
+  uuid: ba69a68a-310c-4477-b1ac-12b27cbce9d1
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -215,7 +215,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: 88cb6026-0d79-4810-9e5f-59b836f7ac37
+  uuid: e1efaac0-d628-47aa-bbef-a88be6aa7d11
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -230,7 +230,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: f8918327-b7de-4b18-bfb4-78968c6a29bb
+  uuid: 3ac4e4cc-9ba5-42ca-949c-89b6978ba64c
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -245,7 +245,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: f1f54d37-2f94-421c-8559-1602ef4e9788
+  uuid: 34695991-1377-4392-9b3b-2bfa92b7087b
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -260,7 +260,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: 565f4ca7-dce9-4d2f-abae-1c721cfafed4
+  uuid: d86a4e0e-75f8-4696-93d2-fd96946214d6
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -275,7 +275,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: 9f05a8d5-a019-4229-b92f-71154f2297fb
+  uuid: 5ccd75d0-6053-417a-b953-1e527eb23daa
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -290,7 +290,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: 91e828ba-1fd1-45cf-8fc7-1748c9c19c78
+  uuid: 383677fa-6556-4a84-b8d3-d211af965737
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -305,7 +305,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: d9f04cfd-43eb-4872-a435-246dcebab438
+  uuid: 38b9cd82-6e3a-495b-a878-0179f038af70
   cipher: none
   tls: true
   skip-cert-verify: true
@@ -320,7 +320,7 @@ proxies:
   server: api24-normal.tiktokv.com
   port: 443
   type: vless
-  uuid: 04368869-7223-43e1-a52c-f4ed3c2627b3
+  uuid: 92c54b74-e8a1-4f20-ad12-0c9c6e3fcdda
   cipher: none
   tls: true
   skip-cert-verify: true
