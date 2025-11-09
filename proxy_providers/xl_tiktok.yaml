@@ -85,11 +85,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /id-rmhwb
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (ID) Amazon.com, Inc 🇮🇩
   server: api22-normal-c-alisg.tiktokv.com
@@ -100,11 +100,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /id-amz
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (ID) PT. Telekomunikasi 🇮🇩
   server: api22-normal-c-alisg.tiktokv.com
@@ -115,11 +115,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /id-tksi
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (ID) Pt Pusat Media 🇮🇩
   server: api22-normal-c-alisg.tiktokv.com
@@ -130,11 +130,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /id-pusat
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (MY) Terabix Technologies 🇲🇾
   server: api22-normal-c-alisg.tiktokv.com
@@ -145,11 +145,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /my-tera
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (MY) Kaopu Cloud 🇲🇾
   server: api22-normal-c-alisg.tiktokv.com
@@ -160,11 +160,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /my-kc
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (SG) Digitalocean, LLC 🇸🇬
   server: api22-normal-c-alisg.tiktokv.com
@@ -175,11 +175,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /sg-do
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (SG) Oracle Corporation 🇸🇬
   server: api22-normal-c-alisg.tiktokv.com
@@ -190,11 +190,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /sg-orcl
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (SG) Akamai Technologies 🇸🇬
   server: api22-normal-c-alisg.tiktokv.com
@@ -205,11 +205,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /sg-akm
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (SG) Microsoft Corporation 🇸🇬
   server: api22-normal-c-alisg.tiktokv.com
@@ -220,11 +220,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /sg-mc
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (SG) OVH SAS 🇸🇬
   server: api22-normal-c-alisg.tiktokv.com
@@ -235,11 +235,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /sg-ovh
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (SG) Melbikomas Uab 🇸🇬
   server: api22-normal-c-alisg.tiktokv.com
@@ -250,11 +250,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /sg-melbi
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (SG) Hetzner Online 🇸🇬
   server: api22-normal-c-alisg.tiktokv.com
@@ -265,11 +265,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /sg-hzr
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (SG) Misaka Network 🇸🇬
   server: api22-normal-c-alisg.tiktokv.com
@@ -280,11 +280,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /sg-msk
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (SG) Contabo Asia 🇸🇬
   server: api22-normal-c-alisg.tiktokv.com
@@ -295,11 +295,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /sg-cntb
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: (SG) Amazon.com, Inc 🇸🇬
   server: api22-normal-c-alisg.tiktokv.com
@@ -310,11 +310,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /sg-amz
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 - name: Random ISP
   server: api22-normal-c-alisg.tiktokv.com
@@ -325,11 +325,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.bismillah.qzz.io
   ws-opts:
     path: /random
     headers:
-      Host: api22-normal-c-alisg.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.bismillah.qzz.io
   udp: true
 # natanfree
 - name: natanvpn 5
