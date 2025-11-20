@@ -85,11 +85,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: api24-normal.tiktokv.com.bismillah.qzz.io
+  servername: api24-normal.tiktokv.com.ex3r.qzz.io
   ws-opts:
     path: /id-rmhwb
     headers:
-      Host: api24-normal.tiktokv.com.bismillah.qzz.io
+      Host: api24-normal.tiktokv.com.ex3r.qzz.io
   udp: true
 - name: (ID) Amazon.com, Inc 🇮🇩
   server: api24-normal.tiktokv.com
