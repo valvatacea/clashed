@@ -326,6 +326,18 @@ proxy-groups:
   - XL Grab
   - XL Vidio
   - DIRECT
+- name: TrafficMalicious
+  type: select
+  disable-udp: false
+  proxies:
+  - REJECT
+  - XL Tiktok
+  - Byu Opok
+  - XL Opok
+  - XL Iflix
+  - XL Grab
+  - XL Vidio
+  - DIRECT
 - name: TrafficPorn
   type: select
   disable-udp: false
@@ -564,8 +576,8 @@ rules:
 # - DST-PORT,22,TrafficDirect
 - RULE-SET,rule_lancidr,DIRECT,no-resolve
 - RULE-SET,rule_falsepositive,TrafficUmum
-- RULE-SET,rule_malicious,REJECT
-- RULE-SET,rule_maliciousip,REJECT
+- RULE-SET,rule_malicious,TrafficMalicious
+- RULE-SET,rule_maliciousip,TrafficMalicious
 - RULE-SET,rule_personalads,TrafficAds
 - RULE-SET,rule_basicads,TrafficAds
 - RULE-SET,rule_hijacking,TrafficAds
@@ -610,7 +622,7 @@ rules:
 
 
 tun:
-  enable: true
+  enable: false
   stack: system
   auto-route: false
   auto-detect-interface: false
