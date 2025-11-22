@@ -600,6 +600,7 @@ rules:
 - RULE-SET,rule_primevideo,TrafficStreaming
 - RULE-SET,rule_twitch,TrafficStreaming
 - RULE-SET,rule_Youtube,TrafficYoutube
+- RULE-SET,rule_youtube_extended,TrafficYoutube
 # - RULE-SET,rule_Sosmed,TrafficSosmed
 - RULE-SET,rule_line,TrafficLine
 - RULE-SET,rule_whatsapp,TrafficWhatsApp
@@ -888,5 +889,11 @@ rule-providers:
     behavior: domain
     url: https://raw.githubusercontent.com/valvatacea/clashed/main/rule_provider/rule_youtube.yaml
     path: "./rule_provider/rule_youtube.yaml"
+    interval: 86400
+  rule_youtube_extended:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/custom_rule_provider/rule_youtube_extended.yaml
+    path: "./rule_provider/rule_youtube_extended.yaml"
     interval: 86400
 ipv6: true
