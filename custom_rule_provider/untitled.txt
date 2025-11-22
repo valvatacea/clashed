@@ -1,0 +1,8 @@
+# > Youtube
+  - DOMAIN-SUFFIX,video.google.com
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,yt3.ggpht.com
+# > Youtube IP-CIDR
+  - IP-CIDR,172.110.32.0/21
+  - IP-CIDR,216.73.80.0/20
+  - IP-CIDR6,2620:120:e000::/40
