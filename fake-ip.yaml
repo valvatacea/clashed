@@ -892,7 +892,7 @@ rule-providers:
     interval: 86400
   rule_youtube_extended:
     type: http
-    behavior: domain
+    behavior: classical
     url: https://raw.githubusercontent.com/valvatacea/clashed/main/custom_rule_provider/rule_youtube_extended.yaml
     path: "./rule_provider/rule_youtube_extended.yaml"
     interval: 86400
