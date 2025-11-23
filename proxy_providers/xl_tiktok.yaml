@@ -1,5 +1,5 @@
 proxies:
-# mediafairy
+# mediafairy ID
 - name: ID PT Telekomunikasi Indonesia
   server: api24-normal-alisg.tiktokv.com
   port: 443
@@ -75,7 +75,9 @@ proxies:
     headers:
       Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   udp: true
-  
+# mediafairy SG
+
+
 # natanfree
 - name: natanvpn 1
   server: api24-normal-alisg.tiktokv.com
