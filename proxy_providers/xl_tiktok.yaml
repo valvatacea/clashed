@@ -76,7 +76,111 @@ proxies:
       Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
   udp: true
 # mediafairy SG
-
+- name: SG PDK LLC
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  network: ws
+  ws-opts:
+    path: /31.192.238.71-2053
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  udp: true
+- name: SG Alibaba Cloud LLC
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  network: ws
+  ws-opts:
+    path: /47.237.149.38-8443
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  udp: true
+- name: SG Melbikomas UAB
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  network: ws
+  ws-opts:
+    path: /91.192.81.154-2053
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  udp: true
+- name: SG 6 COLLYER QUAY
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  network: ws
+  ws-opts:
+    path: /43.128.95.110-40029
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  udp: true
+- name: SG 3NT SOLUTIONS LLP
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  network: ws
+  ws-opts:
+    path: /38.180.249.123-443
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  udp: true
+- name: SG Amazon Data Services Singapore
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  network: ws
+  ws-opts:
+    path: /13.250.31.132-443
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  udp: true
+- name: SG Datacamp Limited
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: vless
+  uuid: eeeeeee3-eeee-4eee-aeee-eeeeeeeeeee5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  network: ws
+  ws-opts:
+    path: /151.242.153.8-443
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  udp: true
 
 # natanfree
 - name: natanvpn 1
