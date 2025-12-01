@@ -186,7 +186,7 @@ proxies:
 - name: natanvpn 1
   server: api24-normal-alisg.tiktokv.com
   port: 443
-  type: vless
+  type: trojan
   uuid: natanvpn
   cipher: auto
   tls: true
@@ -201,7 +201,7 @@ proxies:
 - name: natanvpn 3
   server: api24-normal-alisg.tiktokv.com
   port: 443
-  type: vless
+  type: trojan
   uuid: natanvpn
   cipher: auto
   tls: true
