@@ -194,7 +194,7 @@ proxies:
   servername: api24-normal-alisg.tiktokv.com.1.round.web.id
   network: ws
   ws-opts:
-    path: /vless
+    path: /trojan
     headers:
       Host: api24-normal-alisg.tiktokv.com.1.round.web.id
   udp: true
@@ -209,7 +209,7 @@ proxies:
   servername: api24-normal-alisg.tiktokv.com.3.round.web.id
   network: ws
   ws-opts:
-    path: /vless
+    path: /trojan
     headers:
       Host: api24-normal-alisg.tiktokv.com.3.round.web.id
   udp: true
