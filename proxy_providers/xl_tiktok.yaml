@@ -8,12 +8,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /36.95.152.58-12137
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 - name: ID CV. Rumahweb Indonesia
   server: api24-normal-alisg.tiktokv.com
@@ -23,12 +23,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /203.194.112.119-2053
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 - name: ID 21/F
   server: api24-normal-alisg.tiktokv.com
@@ -38,12 +38,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /149.129.250.8-443
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 - name: ID PT Pusat Media Indonesia
   server: api24-normal-alisg.tiktokv.com
@@ -53,12 +53,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /103.6.207.108-8080
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 - name: ID Lightnode Limited
   server: api24-normal-alisg.tiktokv.com
@@ -68,12 +68,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /156.244.1.250-8443
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 # mediafairy SG
 - name: SG PDK LLC
@@ -84,12 +84,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /31.192.238.71-2053
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 - name: SG Alibaba Cloud LLC
   server: api24-normal-alisg.tiktokv.com
@@ -99,12 +99,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /47.237.149.38-8443
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 - name: SG Melbikomas UAB
   server: api24-normal-alisg.tiktokv.com
@@ -114,12 +114,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /91.192.81.154-2053
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 - name: SG 6 COLLYER QUAY
   server: api24-normal-alisg.tiktokv.com
@@ -129,12 +129,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /43.128.95.110-40029
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 - name: SG 3NT SOLUTIONS LLP
   server: api24-normal-alisg.tiktokv.com
@@ -144,12 +144,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /38.180.249.123-443
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 - name: SG Amazon Data Services Singapore
   server: api24-normal-alisg.tiktokv.com
@@ -159,12 +159,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /13.250.31.132-443
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 - name: SG Datacamp Limited
   server: api24-normal-alisg.tiktokv.com
@@ -174,12 +174,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+  servername: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   network: ws
   ws-opts:
     path: /151.242.153.8-443
     headers:
-      Host: api24-normal-alisg.tiktokv.com.bokepindo.qzz.io
+      Host: api24-normal-alisg.tiktokv.com.sirkel.qzz.io
   udp: true
 
 # natanfree
