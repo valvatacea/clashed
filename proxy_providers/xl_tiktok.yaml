@@ -197,6 +197,20 @@ proxies:
     headers:
       Host: api24-normal-alisg.tiktokv.com.1.round.web.id
   udp: true
+- name: natanvpn 2
+  server: api24-normal-alisg.tiktokv.com
+  port: 443
+  type: trojan
+  password: natanvpn
+  cipher: auto
+  skip-cert-verify: true
+  sni: api24-normal-alisg.tiktokv.com.2.round.web.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: api24-normal-alisg.tiktokv.com.2.round.web.id
+  udp: true
 - name: natanvpn 3
   server: api24-normal-alisg.tiktokv.com
   port: 443
