@@ -187,7 +187,7 @@ proxies:
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: trojan
-  password: natanvpn
+  password: natanvpn111
   cipher: auto
   skip-cert-verify: true
   sni: api24-normal-alisg.tiktokv.com.1.round.web.id
@@ -201,7 +201,7 @@ proxies:
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: trojan
-  password: natanvpn
+  password: natanvpn111
   cipher: auto
   skip-cert-verify: true
   sni: api24-normal-alisg.tiktokv.com.2.round.web.id
@@ -215,7 +215,7 @@ proxies:
   server: api24-normal-alisg.tiktokv.com
   port: 443
   type: trojan
-  password: natanvpn
+  password: natanvpn111
   cipher: auto
   skip-cert-verify: true
   sni: api24-normal-alisg.tiktokv.com.3.round.web.id
