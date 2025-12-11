@@ -1,8 +1,8 @@
 proxies:
 # mine
-  - name: 1 🇮🇩 Amazon.com WS TLS [cf-serverless]
-    server: space.byu.id
-    port: 443
+- name: 1 🇮🇩 Amazon.com WS TLS [cf-serverless]
+  server: space.byu.id
+  port: 443
     type: vless
     uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
     cipher: auto
@@ -15,51 +15,51 @@ proxies:
       headers:
         Host: cf-serverless.valvatacea.workers.dev
     udp: true
-  - name: 2 🇮🇩 Amazon.com WS TLS [cf-serverless]
-    server: space.byu.id
-    port: 443
-    type: vless
-    uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cf-serverless.valvatacea.workers.dev
-    network: ws
-    ws-opts:
-      path: /43.218.77.16-1443
-      headers:
-        Host: cf-serverless.valvatacea.workers.dev
-    udp: true
-  - name: 3 🇮🇩 PT Telekomunikasi Indonesia WS TLS [cf-serverless]
-    server: space.byu.id
-    port: 443
-    type: vless
-    uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cf-serverless.valvatacea.workers.dev
-    network: ws
-    ws-opts:
-      path: /36.95.152.58-12137
-      headers:
-        Host: cf-serverless.valvatacea.workers.dev
-    udp: true
-  - name: 4 🇮🇩 PT Pusat Media Indonesia WS TLS [cf-serverless]
-    server: space.byu.id
-    port: 443
-    type: vless
-    uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cf-serverless.valvatacea.workers.dev
-    network: ws
-    ws-opts:
-      path: /103.6.207.108-8080
-      headers:
-        Host: cf-serverless.valvatacea.workers.dev
-    udp: true
+- name: 2 🇮🇩 Amazon.com WS TLS [cf-serverless]
+  server: space.byu.id
+  port: 443
+  type: vless
+  uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: cf-serverless.valvatacea.workers.dev
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-1443
+    headers:
+      Host: cf-serverless.valvatacea.workers.dev
+  udp: true
+- name: 3 🇮🇩 PT Telekomunikasi Indonesia WS TLS [cf-serverless]
+  server: space.byu.id
+  port: 443
+  type: vless
+  uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: cf-serverless.valvatacea.workers.dev
+  network: ws
+  ws-opts:
+    path: /36.95.152.58-12137
+    headers:
+      Host: cf-serverless.valvatacea.workers.dev
+  udp: true
+- name: 4 🇮🇩 PT Pusat Media Indonesia WS TLS [cf-serverless]
+  server: space.byu.id
+  port: 443
+  type: vless
+  uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: cf-serverless.valvatacea.workers.dev
+  network: ws
+  ws-opts:
+    path: /103.6.207.108-8080
+    headers:
+      Host: cf-serverless.valvatacea.workers.dev
+  udp: true
 
 # random
 - name: ID MVNET VLESS LIFETIME
