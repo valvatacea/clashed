@@ -1,0 +1,155 @@
+proxies:
+# mine
+- name: 1 🇮🇩 Amazon.com WS TLS [cf-serverless]
+  server: space.byu.id
+  port: 443
+  type: vless
+  uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: cf-serverless.valvatacea.workers.dev
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-443
+    headers:
+      Host: cf-serverless.valvatacea.workers.dev
+  udp: true
+- name: 2 🇮🇩 Amazon.com WS TLS [cf-serverless]
+  server: space.byu.id
+  port: 443
+  type: vless
+  uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: cf-serverless.valvatacea.workers.dev
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-1443
+    headers:
+      Host: cf-serverless.valvatacea.workers.dev
+  udp: true
+- name: 3 🇮🇩 PT Telekomunikasi Indonesia WS TLS [cf-serverless]
+  server: space.byu.id
+  port: 443
+  type: vless
+  uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: cf-serverless.valvatacea.workers.dev
+  network: ws
+  ws-opts:
+    path: /36.95.152.58-12137
+    headers:
+      Host: cf-serverless.valvatacea.workers.dev
+  udp: true
+- name: 4 🇮🇩 PT Pusat Media Indonesia WS TLS [cf-serverless]
+  server: space.byu.id
+  port: 443
+  type: vless
+  uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: cf-serverless.valvatacea.workers.dev
+  network: ws
+  ws-opts:
+    path: /103.6.207.108-8080
+    headers:
+      Host: cf-serverless.valvatacea.workers.dev
+  udp: true
+
+# random
+- name: ID MVNET VLESS LIFETIME
+  server: 162.159.128.79
+  port: 443
+  type: vless
+  uuid: 6f02eec7-d231-4243-ad50-df59d8063d84
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: speed.olinol.de5.net
+  network: ws
+  ws-opts:
+    path: /lifetime
+    headers:
+      Host: speed.olinol.de5.net
+  udp: true
+- name: ID MVNET VLESS LIFETIME 2
+  server: 162.159.128.79
+  port: 443
+  type: vless
+  uuid: 6f02eec7-d231-4243-ad50-df59d8063d84
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: olinol.de5.net.speed.olinol.de5.net
+  network: ws
+  ws-opts:
+    path: /lifetime
+    headers:
+      Host: olinol.de5.net.speed.olinol.de5.net
+  udp: true
+- name: 🇸🇬 - OVH SAS
+  server: 162.159.128.79
+  port: 443
+  type: vless
+  uuid: bbe13818-3d82-4127-aa2a-cbc209a6b7e4
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vpn.vpnjatim.pp.ua
+  network: ws
+  ws-opts:
+    path: /51.79.134.207-443
+    headers:
+      Host: vpn.vpnjatim.pp.ua
+  udp: true
+- name: 🇸🇬 - DigitalOcean LLC
+  server: 162.159.128.79
+  port: 443
+  type: vless
+  uuid: bbe13818-3d82-4127-aa2a-cbc209a6b7e4
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vpn.vpnjatim.pp.ua
+  network: ws
+  ws-opts:
+    path: /104.248.145.216-443
+    headers:
+      Host: vpn.vpnjatim.pp.ua
+  udp: true
+- name: VLESS TLS [ IG ]
+  server: 162.159.128.79
+  port: 443
+  type: vless
+  uuid: 548c40e7-6666-4270-ad02-9d93c1d04141
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: myxl.dpdns.org
+  network: ws
+  ws-opts:
+    path: /Club-Gratis/
+    headers:
+      Host: myxl.dpdns.org
+  udp: true
+- name: SG Epsilon
+  type: vmess
+  server: 162.159.128.79
+  port: 443
+  uuid: a0779124-aa23-40b5-9149-05fb559a76cd
+  alterId: 0
+  cipher: zero
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: tricks.nyylstore.xyz
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: tricks.nyylstore.xyz
+  udp: true
