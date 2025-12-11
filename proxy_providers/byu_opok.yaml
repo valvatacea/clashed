@@ -17,36 +17,6 @@ proxies:
   udp: true
 
 # random
-- name: ID MVNET VLESS LIFETIME
-  server: 162.159.128.79
-  port: 443
-  type: vless
-  uuid: 6f02eec7-d231-4243-ad50-df59d8063d84
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: speed.olinol.de5.net
-  network: ws
-  ws-opts:
-    path: /lifetime
-    headers:
-      Host: speed.olinol.de5.net
-  udp: true
-- name: ID MVNET VLESS LIFETIME 2
-  server: 162.159.128.79
-  port: 443
-  type: vless
-  uuid: 6f02eec7-d231-4243-ad50-df59d8063d84
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: olinol.de5.net.speed.olinol.de5.net
-  network: ws
-  ws-opts:
-    path: /lifetime
-    headers:
-      Host: olinol.de5.net.speed.olinol.de5.net
-  udp: true
 - name: 🇸🇬 - OVH SAS
   server: 162.159.128.79
   port: 443
