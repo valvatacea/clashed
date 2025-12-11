@@ -1,5 +1,20 @@
 proxies:
 # mine
+- name: 1 🇮🇩 Amazon.com WS TLS [cf-serverless]
+  server: space.byu.id
+  port: 443
+  type: vless
+  uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: cf-serverless.valvatacea.workers.dev
+  network: ws
+  ws-opts:
+    path: /43.218.77.16-443
+    headers:
+      Host: cf-serverless.valvatacea.workers.dev
+  udp: true
 
 # random
 - name: ID MVNET VLESS LIFETIME
