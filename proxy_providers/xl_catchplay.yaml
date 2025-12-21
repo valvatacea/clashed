@@ -1,0 +1,27 @@
+proxies:
+- name: natanvpn 2
+  type: trojan
+  server: partner.catchplay.com
+  port: 443
+  password: natanvpn88
+  skip-cert-verify: true
+  sni: 2.round.web.id
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: 2.round.web.id
+- name: natanvpn 3
+  type: trojan
+  server: partner.catchplay.com
+  port: 443
+  password: natanvpn88
+  skip-cert-verify: true
+  sni: 3.round.web.id
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: 3.round.web.id
