@@ -1,20 +1,19 @@
 proxies:
-- name: nadia (1401)
-  server: partner.catchplay.com
-  port: 443
-  type: vmess
-  uuid: 0fff7747-912c-4a8c-850f-b77688b3d31f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: nusa.vpnstore28.my.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: nusa.vpnstore28.my.id
-  udp: true
+  - name: auxhsh
+    server: partner.catchplay.com
+    port: 443
+    type: vless
+    uuid: 162b7622-8bbf-4ba7-a906-61b2c9f987a1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nusa.vpnstore28.my.id
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: nusa.vpnstore28.my.id
+    udp: true
 - name: natanvpn 2
   type: trojan
   server: partner.catchplay.com
