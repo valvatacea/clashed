@@ -36,10 +36,10 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 180
-  xl_grab:
+  xl_catchplay:
     type: http
-    path: "./proxy_provider/xl_grab.yaml"
-    url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/xl_grab.yaml
+    path: "./proxy_provider/xl_catchplay.yaml"
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/xl_catchplay.yaml
     interval: 1440
     health-check:
       enable: true
@@ -96,14 +96,14 @@ proxy-groups:
   - xl_iflix
   url: http://www.gstatic.com/generate_204
   interval: 360
-- name: XL Grab
+- name: XL Catchplay
   type: select
 #  strategy: round-robin
   disable-udp: false
   proxies:
   - DIRECT
   use:
-  - xl_grab
+  - xl_catchplay
   url: http://www.gstatic.com/generate_204
   interval: 360
 - name: XL Vidio
@@ -126,7 +126,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   - REJECT
@@ -141,7 +141,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   - REJECT
@@ -156,7 +156,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   - REJECT
@@ -171,7 +171,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   - REJECT
@@ -186,7 +186,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   - REJECT
@@ -201,7 +201,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   - REJECT
@@ -216,7 +216,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   - REJECT
@@ -231,7 +231,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   - REJECT
@@ -247,7 +247,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   - REJECT
@@ -262,7 +262,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   - REJECT
@@ -277,7 +277,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   - REJECT
@@ -294,7 +294,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
 - name: TrafficGaming
   type: select
@@ -304,7 +304,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   use:
@@ -312,7 +312,7 @@ proxy-groups:
   - xl_opok
   - xl_tiktok
   - xl_iflix
-  - xl_grab
+  - xl_catchplay
   - xl_vidio
 - name: TrafficAds
   type: select
@@ -323,7 +323,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
 - name: TrafficMalicious
@@ -335,7 +335,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
 - name: TrafficPorn
@@ -347,7 +347,7 @@ proxy-groups:
   - Byu Opok
   - XL Opok
   - XL Iflix
-  - XL Grab
+  - XL Catchplay
   - XL Vidio
   - DIRECT
   
@@ -359,7 +359,7 @@ proxy-groups:
 #   - Byu Opok
 #   - XL Opok
 #   - XL Iflix
-#   - XL Grab
+#   - XL Catchplay
 #   - XL Vidio
 # - name: Direct Multi-WAN
 #   type: select
