@@ -1,4 +1,66 @@
 proxies:
+  - name: 1 🇮🇩 Amazon.com WS NTLS [cf-serverless]
+    server: partner.catchplay.com
+    port: 80
+    type: vless
+    uuid: ec0fcc0b-711e-45ab-b291-220700ce7d9b
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 2 🇮🇩 PT Pusat Media Indonesia WS NTLS [cf-serverless]
+    server: partner.catchplay.com
+    port: 80
+    type: vless
+    uuid: ec0fcc0b-711e-45ab-b291-220700ce7d9b
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /103.6.207.108-8080
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 3 🇮🇩 Amazon.com WS NTLS [cf-serverless]
+    server: partner.catchplay.com
+    port: 80
+    type: vless
+    uuid: ec0fcc0b-711e-45ab-b291-220700ce7d9b
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-1443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 4 🇮🇩 PT Telekomunikasi Indonesia WS NTLS [cf-serverless]
+    server: partner.catchplay.com
+    port: 80
+    type: vless
+    uuid: ec0fcc0b-711e-45ab-b291-220700ce7d9b
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /36.95.152.58-12137
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+    
+# natanvpn
   - name: natanvpn
     server: partner.catchplay.com
     port: 80
