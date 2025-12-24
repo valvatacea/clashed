@@ -1,1 +1,136 @@
 proxies:
+  - name: 1 🇸🇬 Oracle Svenska AB WS TLS [cf-serverless]
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: abd02ff4-a6cb-44f0-aa5c-34ce645803a3
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /213.35.108.135-12596
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 2 🇸🇬 Amazon Data Services Singapore WS TLS [cf-serverless]
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: abd02ff4-a6cb-44f0-aa5c-34ce645803a3
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /13.250.131.37-443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 3 🇸🇬 Oracle Corporation WS TLS [cf-serverless]
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: abd02ff4-a6cb-44f0-aa5c-34ce645803a3
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /146.235.18.248-45137
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 4 🇸🇬 FIRST SERVER LIMITED WS TLS [cf-serverless]
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: abd02ff4-a6cb-44f0-aa5c-34ce645803a3
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /194.36.178.36-2053
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 5 🇸🇬 UCUL-SG WS TLS [cf-serverless]
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: abd02ff4-a6cb-44f0-aa5c-34ce645803a3
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /164.52.2.99-443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 6 🇸🇬 Viewqwest Pte Ltd WS TLS [cf-serverless]
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: abd02ff4-a6cb-44f0-aa5c-34ce645803a3
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /143.42.66.91-443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 7 🇸🇬 16 COLLYER QUAY WS TLS [cf-serverless]
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: abd02ff4-a6cb-44f0-aa5c-34ce645803a3
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.156.181.203-443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 8 🇸🇬 Oracle Corporation WS TLS [cf-serverless]
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: abd02ff4-a6cb-44f0-aa5c-34ce645803a3
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /138.2.69.236-23334
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 9 🇸🇬 Greencloud LLC WS TLS [cf-serverless]
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: abd02ff4-a6cb-44f0-aa5c-34ce645803a3
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /194.127.193.124-24467
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
