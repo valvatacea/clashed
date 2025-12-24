@@ -59,20 +59,3 @@ proxies:
       headers:
         Host: cf-serverless.valvatacea.workers.dev
     udp: true
-    
-# SG
-  - name: SG Epsilon
-    type: vmess
-    server: ovo.id
-    port: 80
-    uuid: a0779124-aa23-40b5-9149-05fb559a76cd
-    alterId: 0
-    cipher: zero
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: tricks.nyylstore.xyz
-    udp: true
