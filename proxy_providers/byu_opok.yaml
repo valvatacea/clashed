@@ -1,49 +1,136 @@
 proxies:
-# mine
-- name: 1 🇮🇩 Amazon.com WS TLS [cf-serverless]
-  server: space.byu.id
-  port: 443
-  type: vless
-  uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: cf-serverless.valvatacea.workers.dev
-  network: ws
-  ws-opts:
-    path: /43.218.77.16-443
-    headers:
-      Host: cf-serverless.valvatacea.workers.dev
-  udp: true
-
-# random
-- name: 🇸🇬 - OVH SAS
-  server: 162.159.128.79
-  port: 443
-  type: vless
-  uuid: bbe13818-3d82-4127-aa2a-cbc209a6b7e4
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: vpn.vpnjatim.pp.ua
-  network: ws
-  ws-opts:
-    path: /51.79.134.207-443
-    headers:
-      Host: vpn.vpnjatim.pp.ua
-  udp: true
-- name: 🇸🇬 - DigitalOcean LLC
-  server: 162.159.128.79
-  port: 443
-  type: vless
-  uuid: bbe13818-3d82-4127-aa2a-cbc209a6b7e4
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: vpn.vpnjatim.pp.ua
-  network: ws
-  ws-opts:
-    path: /104.248.145.216-443
-    headers:
-      Host: vpn.vpnjatim.pp.ua
-  udp: true
+  - name: 1 🇸🇬 FIRST SERVER LIMITED WS TLS [cf-serverless]
+    server: space.byu.id
+    port: 443
+    type: vless
+    uuid: b63825e9-9798-47a9-a36c-a0901681bbc4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /194.36.179.17-8443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 2 🇸🇬 FIRST SERVER LIMITED WS TLS [cf-serverless]
+    server: space.byu.id
+    port: 443
+    type: vless
+    uuid: b63825e9-9798-47a9-a36c-a0901681bbc4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /194.36.178.36-8443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 3 🇸🇬 Vultr Holdings WS TLS [cf-serverless]
+    server: space.byu.id
+    port: 443
+    type: vless
+    uuid: b63825e9-9798-47a9-a36c-a0901681bbc4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /45.32.100.46-13802
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 4 🇸🇬 PDK LLC WS TLS [cf-serverless]
+    server: space.byu.id
+    port: 443
+    type: vless
+    uuid: b63825e9-9798-47a9-a36c-a0901681bbc4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /31.192.238.71-8443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 5 🇸🇬 UCUL-SG WS TLS [cf-serverless]
+    server: space.byu.id
+    port: 443
+    type: vless
+    uuid: b63825e9-9798-47a9-a36c-a0901681bbc4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /164.52.2.98-443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 6 🇸🇬 Oracle Public Cloud WS TLS [cf-serverless]
+    server: space.byu.id
+    port: 443
+    type: vless
+    uuid: b63825e9-9798-47a9-a36c-a0901681bbc4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /168.138.170.211-53702
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 7 🇸🇬 Oracle Public Cloud WS TLS [cf-serverless]
+    server: space.byu.id
+    port: 443
+    type: vless
+    uuid: b63825e9-9798-47a9-a36c-a0901681bbc4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /168.138.171.70-23280
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 8 🇸🇬 Oracle Svenska AB WS TLS [cf-serverless]
+    server: space.byu.id
+    port: 443
+    type: vless
+    uuid: b63825e9-9798-47a9-a36c-a0901681bbc4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /213.35.100.31-47112
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 9 🇮🇩 PT Pusat Media Indonesia WS TLS [cf-serverless]
+    server: space.byu.id
+    port: 443
+    type: vless
+    uuid: b63825e9-9798-47a9-a36c-a0901681bbc4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /103.6.207.108-8080
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
