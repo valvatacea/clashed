@@ -1,42 +1,27 @@
 proxies:
-  - name: auxhsh
-    server: api24-normal-alisg.tiktokv.com
-    port: 443
-    type: vless
-    uuid: 162b7622-8bbf-4ba7-a906-61b2c9f987a1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: api24-normal-alisg.tiktokv.com.nusa.vpnstore28.my.id
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: api24-normal-alisg.tiktokv.com.nusa.vpnstore28.my.id
-    udp: true
-  - name: natanvpn 3
+  - name: natanvpn
     server: api24-normal-alisg.tiktokv.com
     port: 443
     type: trojan
-    password: natanvpn88
+    password: natanvpn25
     skip-cert-verify: true
-    sni: api24-normal-alisg.tiktokv.com.3.round.web.id
+    sni: api24-normal-alisg.tiktokv.com.natanvpn2.oncom.web.id
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: api24-normal-alisg.tiktokv.com.3.round.web.id
+        Host: api24-normal-alisg.tiktokv.com.natanvpn2.oncom.web.id
     udp: true
   - name: natanvpn 2
     server: api24-normal-alisg.tiktokv.com
     port: 443
     type: trojan
-    password: natanvpn88
+    password: natanvpn25
     skip-cert-verify: true
-    sni: api24-normal-alisg.tiktokv.com.2.round.web.id
+    sni: api24-normal-alisg.tiktokv.com.natanvpn3.oncom.web.id
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: api24-normal-alisg.tiktokv.com.2.round.web.id
+        Host: api24-normal-alisg.tiktokv.com.natanvpn3.oncom.web.id
     udp: true
