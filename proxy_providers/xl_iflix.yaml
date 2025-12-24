@@ -14,3 +14,31 @@ proxies:
       headers:
         Host: cf-serverless.valvatacea.workers.dev
     udp: true
+    
+# natanvpn
+  - name: natanvpn
+    server: natanvpn2.oncom.web.id
+    port: 443
+    type: trojan
+    password: natanvpn25
+    skip-cert-verify: true
+    sni: live.iflix.com
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: natanvpn2.oncom.web.id
+    udp: true
+  - name: natanvpn 2
+    server: natanvpn3.oncom.web.id
+    port: 443
+    type: trojan
+    password: natanvpn25
+    skip-cert-verify: true
+    sni: live.iflix.com
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: natanvpn3.oncom.web.id
+    udp: true
