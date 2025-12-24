@@ -1,16 +1,78 @@
 proxies:
-- name: SG Epsilon
-  type: vmess
-  server: ovo.id
-  port: 80
-  uuid: a0779124-aa23-40b5-9149-05fb559a76cd
-  alterId: 0
-  cipher: zero
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: tricks.nyylstore.xyz
-  udp: true
+  - name: 1 🇮🇩 PT Telekomunikasi Indonesia WS NTLS [cf-serverless]
+    server: ovo.id
+    port: 80
+    type: vless
+    uuid: 95cd3872-475b-422f-b0ca-1b75d65b7bd5
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /36.95.152.58-12137
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 2 🇮🇩 Amazon.com WS NTLS [cf-serverless]
+    server: ovo.id
+    port: 80
+    type: vless
+    uuid: 95cd3872-475b-422f-b0ca-1b75d65b7bd5
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 3 🇮🇩 PT Pusat Media Indonesia WS NTLS [cf-serverless]
+    server: ovo.id
+    port: 80
+    type: vless
+    uuid: 95cd3872-475b-422f-b0ca-1b75d65b7bd5
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /103.6.207.108-8080
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 4 🇮🇩 Amazon.com WS NTLS [cf-serverless]
+    server: ovo.id
+    port: 80
+    type: vless
+    uuid: 95cd3872-475b-422f-b0ca-1b75d65b7bd5
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-1443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+    
+# SG
+  - name: SG Epsilon
+    type: vmess
+    server: ovo.id
+    port: 80
+    uuid: a0779124-aa23-40b5-9149-05fb559a76cd
+    alterId: 0
+    cipher: zero
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: tricks.nyylstore.xyz
+    udp: true
