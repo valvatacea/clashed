@@ -1,21 +1,4 @@
 proxies:
-  - name: 1 🇮🇩 Amazon.com WS TLS [cf-serverless]
-    server: cf-serverless.valvatacea.workers.dev
-    port: 443
-    type: vless
-    uuid: 6c787ad7-5026-49e3-bdb6-f9e3a5006e45
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: live.iflix.com
-    network: ws
-    ws-opts:
-      path: /43.218.77.16-443
-      headers:
-        Host: cf-serverless.valvatacea.workers.dev
-    udp: true
-    
-# natanvpn
   - name: natanvpn
     server: natanvpn2.oncom.web.id
     port: 443
