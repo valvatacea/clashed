@@ -59,7 +59,82 @@ proxies:
       headers:
         Host: cf-serverless.valvatacea.workers.dev
     udp: true
-    
+  - name: 5 🇸🇬 Oracle Corporation WS NTLS [cf-serverless]
+    server: partner.catchplay.com
+    port: 80
+    type: vless
+    uuid: f97ec286-d98c-411c-8774-75b56195b365
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /129.150.49.58-18650
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 6 🇮🇩 Amazon.com WS NTLS [cf-serverless]
+    server: partner.catchplay.com
+    port: 80
+    type: vless
+    uuid: f97ec286-d98c-411c-8774-75b56195b365
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-1443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 7 🇸🇬 PDK LLC WS NTLS [cf-serverless]
+    server: partner.catchplay.com
+    port: 80
+    type: vless
+    uuid: f97ec286-d98c-411c-8774-75b56195b365
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /31.192.238.71-8443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 8 🇸🇬 Green Floid LLC WS NTLS [cf-serverless]
+    server: partner.catchplay.com
+    port: 80
+    type: vless
+    uuid: f97ec286-d98c-411c-8774-75b56195b365
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /5.34.176.119-81
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+  - name: 9 🇸🇬 DigitalOcean WS NTLS [cf-serverless]
+    server: partner.catchplay.com
+    port: 80
+    type: vless
+    uuid: f97ec286-d98c-411c-8774-75b56195b365
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: cf-serverless.valvatacea.workers.dev
+    network: ws
+    ws-opts:
+      path: /178.128.80.43-443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+    udp: true
+
 # natanvpn
   - name: natanvpn
     server: partner.catchplay.com
