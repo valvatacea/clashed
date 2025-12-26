@@ -1,4 +1,19 @@
 proxies:
+  - name: nadia
+    server: api24-normal-alisg.tiktokv.com
+    port: 443
+    type: vless
+    uuid: 18d8bbee-5f21-438d-b076-66c4b76d108e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api24-normal-alisg.tiktokv.com.nusa.vpnstore28.my.id
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: api24-normal-alisg.tiktokv.com.nusa.vpnstore28.my.id
+    udp: true
   - name: natanvpn
     server: api24-normal-alisg.tiktokv.com
     port: 443
