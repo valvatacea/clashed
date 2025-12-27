@@ -3,7 +3,7 @@ proxies:
     server: investors.spotify.com
     port: 443
     type: vless
-    uuid: 18d8bbee-5f21-438d-b076-66c4b76d108e
+    uuid: 514954de-d548-415b-88c0-0ba444213820
     cipher: auto
     tls: true
     skip-cert-verify: true
