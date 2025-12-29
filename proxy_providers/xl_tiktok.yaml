@@ -3,7 +3,7 @@ proxies:
     server: api24-normal-alisg.tiktokv.com
     port: 443
     type: vless
-    uuid: 514954de-d548-415b-88c0-0ba444213820
+    uuid: be6d3893-2bf1-4caa-87ed-aaa756b2f96e
     cipher: auto
     tls: true
     skip-cert-verify: true
