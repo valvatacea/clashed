@@ -1,0 +1,57 @@
+proxies:
+  - name: 1%20%F0%9F%87%AE%F0%9F%87%A9%20PT%20Telekomunikasi%20Indonesia%20WS%20NTLS%20%5Bcf-serverless%5D
+    server: listen.noice.id
+    port: 80
+    type: vless
+    udp: true
+    skip-cert-verify: true
+    uuid: 0e510c45-5810-4c9d-bef0-167532407aaa
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /36.95.152.58-12137
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+  - name: 2%20%F0%9F%87%AE%F0%9F%87%A9%20PT%20Pusat%20Media%20Indonesia%20WS%20NTLS%20%5Bcf-serverless%5D
+    server: listen.noice.id
+    port: 80
+    type: vless
+    udp: true
+    skip-cert-verify: true
+    uuid: 0e510c45-5810-4c9d-bef0-167532407aaa
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /103.6.207.108-8080
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+  - name: 3%20%F0%9F%87%AE%F0%9F%87%A9%20Amazon.com%20WS%20NTLS%20%5Bcf-serverless%5D
+    server: listen.noice.id
+    port: 80
+    type: vless
+    udp: true
+    skip-cert-verify: true
+    uuid: 0e510c45-5810-4c9d-bef0-167532407aaa
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-1443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
+  - name: 4%20%F0%9F%87%AE%F0%9F%87%A9%20Amazon.com%20WS%20NTLS%20%5Bcf-serverless%5D
+    server: listen.noice.id
+    port: 80
+    type: vless
+    udp: true
+    skip-cert-verify: true
+    uuid: 0e510c45-5810-4c9d-bef0-167532407aaa
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-443
+      headers:
+        Host: cf-serverless.valvatacea.workers.dev
