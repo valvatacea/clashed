@@ -40,6 +40,7 @@ proxies:
       headers:
         Host: api24-normal-alisg.tiktokv.com.natanvpn3.oncom.web.id
     udp: true
+    
 # lsvllyyy
   - name: (ID) Amazon.com, Inc. 🇮🇩
     server: api24-normal.tiktokv.com
