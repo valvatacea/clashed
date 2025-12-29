@@ -63,6 +63,15 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 180
+  xl_noice:
+    type: http
+    path: "./proxy_provider/xl_noice.yaml"
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/xl_noice.yaml
+    interval: 1440
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 180
       
 proxy-groups:
 - name: Byu Opok
@@ -135,6 +144,16 @@ proxy-groups:
   - xl_spotify
   url: http://www.gstatic.com/generate_204
   interval: 360
+- name: XL Noice
+  type: select
+#  strategy: round-robin
+  disable-udp: false
+  proxies:
+  - DIRECT
+  use:
+  - xl_noice
+  url: http://www.gstatic.com/generate_204
+  interval: 360
   
 - name: TrafficLine
   type: select
@@ -148,6 +167,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   - REJECT
   url: http://www.gstatic.com/generate_204
@@ -164,6 +184,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   - REJECT
   url: http://www.gstatic.com/generate_204
@@ -180,6 +201,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   - REJECT
   url: http://www.gstatic.com/generate_204
@@ -196,6 +218,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   - REJECT
   url: http://www.gstatic.com/generate_204
@@ -212,6 +235,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   - REJECT
   url: http://www.gstatic.com/generate_204
@@ -228,6 +252,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   - REJECT
   url: http://www.gstatic.com/generate_204
@@ -244,6 +269,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   - REJECT
   url: http://www.gstatic.com/generate_204
@@ -260,6 +286,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   - REJECT
   url: http://www.gstatic.com/generate_204
@@ -277,6 +304,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   - REJECT
   url: http://www.gstatic.com/generate_204
@@ -293,6 +321,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   - REJECT
   url: http://www.gstatic.com/generate_204
@@ -309,6 +338,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   - REJECT
   url: http://www.gstatic.com/generate_204
@@ -327,6 +357,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
 - name: TrafficGaming
   type: select
   disable-udp: false
@@ -338,6 +369,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   use:
   - byu_opok
@@ -347,6 +379,7 @@ proxy-groups:
   - xl_catchplay
   - xl_vidio
   - xl_spotify
+  - xl_noice
 - name: TrafficAds
   type: select
   disable-udp: false
@@ -359,6 +392,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
 - name: TrafficMalicious
   type: select
@@ -372,6 +406,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
 - name: TrafficPorn
   type: select
@@ -385,6 +420,7 @@ proxy-groups:
   - XL Catchplay
   - XL Vidio
   - XL Spotify
+  - XL Noice
   - DIRECT
   
 # - name: TrafficDirect
