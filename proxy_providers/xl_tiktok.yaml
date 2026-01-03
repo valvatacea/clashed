@@ -46,179 +46,194 @@ proxies:
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: a5ad0cc2-77e0-4c2d-8f8b-dbe5ce4e521d
+    uuid: b1c7c55c-6343-4f95-a701-8f9499f626d0
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /id-amz
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
   - name: (ID) PUSATMEDIA 🇮🇩
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: 635e6bdf-2138-4840-9750-ed71268ae51f
+    uuid: 8c624dbe-e44f-43f6-8f7a-b85c5c9bde96
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /id-pusat
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
   - name: (ID) PT. Telekomunikasi Indonesia 🇮🇩
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: 10bbe7f5-1b46-43a0-80b1-47fdc1a02c68
+    uuid: a3e71b63-6542-4a1c-a284-2d72800a6787
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /id-tksi
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
   - name: (SG) Amazon Technologies Inc. 🇸🇬
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: b1efb6cc-92fd-4738-ad04-8bc18d38b6e7
+    uuid: 69156ab9-e5ee-4f15-a92c-fefe1a0a1116
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /sg-amz
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
   - name: (SG) DigitalOcean, LLC 🇸🇬
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: c2e490af-3752-4262-925b-b098c4794ad3
+    uuid: 234d1ccd-7e78-4e01-a22e-e804ce05fc78
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /sg-do
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
+    udp: true
+  - name: (SG) Google LLC 🇸🇬
+    server: api24-normal.tiktokv.com
+    port: 443
+    type: vless
+    uuid: 4dff8f7c-4aee-4a48-b62b-dc92e363b306
+    cipher: none
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
+    ws-opts:
+      path: /sg-gllc
+      headers:
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
   - name: (SG) Hetzner Online GmbH 🇸🇬
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: 6a2daa12-e128-487a-9500-1404064e096e
+    uuid: 656af1f1-d26a-4cfc-8ddb-9b8b7a197ca8
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /sg-hzr
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
   - name: (SG) Microsoft Corporation 🇸🇬
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: 13ff11ec-5c6a-48ba-a16c-d4b63772bd56
+    uuid: 10abfbc3-af3c-4abf-9862-0b849592d8c7
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /sg-mc
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
   - name: (SG) Melbikomas UAB 🇸🇬
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: 72daf3b9-8484-44d7-9f43-581643836f8e
+    uuid: 6dfa3687-5d57-4cd8-9660-308048bcbe92
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /sg-melbi
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
   - name: (SG) Oracle Corporation 🇸🇬
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: 1948926e-9bdc-462f-9280-480f3eb958bd
+    uuid: 3bffe52b-10bd-4bf8-84e4-681e4a629c63
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /sg-orcl
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
   - name: (SG) OVH SAS 🇸🇬
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: 6578f908-096d-4301-abf3-bd7209d0b647
+    uuid: f9cc13a4-ab94-4011-8c2d-31f822897f04
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /sg-ovh
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
   - name: (MY) TM TECHNOLOGY SERVICES SDN BHD 🇲🇾
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: 87d6f4b4-8785-4a2e-9489-222adc2e20b2
+    uuid: 08638633-81ec-4cb7-9cdd-0aa0a75961a6
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /my-tm
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
   - name: Random ISP
     server: api24-normal.tiktokv.com
     port: 443
     type: vless
-    uuid: f9a03e92-6568-40ef-bcc8-a60d1e637b52
+    uuid: d3b6fe6a-f98e-4c60-accc-7453e0b92b43
     cipher: none
     tls: true
     skip-cert-verify: true
     network: ws
-    servername: api24-normal.tiktokv.com.vllzn4.qzz.io
+    servername: api24-normal.tiktokv.com.ex3rr.qzz.io
     ws-opts:
       path: /random
       headers:
-        Host: api24-normal.tiktokv.com.vllzn4.qzz.io
+        Host: api24-normal.tiktokv.com.ex3rr.qzz.io
     udp: true
