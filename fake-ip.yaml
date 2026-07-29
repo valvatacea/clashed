@@ -9,6 +9,24 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 180
+  tsel_opok:
+    type: http
+    path: "./proxy_provider/tsel_opok.yaml"
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/tsel_opok.yaml
+    interval: 1440
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 180
+  tsel_ilped:
+    type: http
+    path: "./proxy_provider/tsel_ilped.yaml"
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/proxy_providers/tsel_ilped.yaml
+    interval: 1440
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 180
   xl_opok:
     type: http
     path: "./proxy_provider/xl_opok.yaml"
