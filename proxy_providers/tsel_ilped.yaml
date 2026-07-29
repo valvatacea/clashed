@@ -25,7 +25,7 @@ proxies:
     servername: dos.biz.id
     network: ws
     ws-opts:
-      path: /‎43.218.77.16-443
+      path: /43.218.77.16-443
       headers:
         Host: dos.biz.id
     udp: true
@@ -40,7 +40,7 @@ proxies:
     servername: adi.biz.id
     network: ws
     ws-opts:
-      path: /‎36.95.152.58-12137
+      path: /36.95.152.58-12137
       headers:
         Host: adi.biz.id
     udp: true
