@@ -1,0 +1,16 @@
+proxies:
+  - name: danaelssh-725
+    server: tdwcontent.telkomsel.com
+    type: vless
+    port: 443
+    uuid: 96e9e029-523a-497e-976c-7c332024b2b5
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
