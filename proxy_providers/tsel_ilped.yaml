@@ -1,0 +1,59 @@
+proxies:
+  - name: salsabila
+    server: api.quipper.com
+    type: vless
+    port: 443
+    uuid: 71c324d5-41ff-4799-9d1a-2e1c06fe5b45
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: biznet.vpnstore28.my.id
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: biznet.vpnstore28.my.id
+    udp: true
+  - name: Amazon-ID-(Gombong)
+    server: api.quipper.com
+    type: vless
+    port: 443
+    uuid: 278a7c23-9793-4f63-8e41-d86f7f4a7052
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: dos.biz.id
+    network: ws
+    ws-opts:
+      path: /‎43.218.77.16-443
+      headers:
+        Host: dos.biz.id
+    udp: true
+  - name: PT-Telekomunikasi-Indonesia-(Gombong)
+    server: api.quipper.com
+    type: vless
+    port: 443
+    uuid: 278a7c23-9793-4f63-8e41-d86f7f4a7052
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: adi.biz.id
+    network: ws
+    ws-opts:
+      path: /‎36.95.152.58-12137
+      headers:
+        Host: adi.biz.id
+    udp: true
+  - name: 1-✨-🇮🇩-PT-FASMA-MULTI-SOLUSINDO-WS-CDN-NTLS
+    server: api.quipper.com
+    port: 443
+    type: trojan
+    password: daf0b712-9488-4f1e-9f9a-8e299c51ee93
+    skip-cert-verify: true
+    sni: id1.foolvpn.web.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id1.foolvpn.web.id
+    udp: true
