@@ -102,6 +102,26 @@ proxy-groups:
   - byu_opok
   url: http://www.gstatic.com/generate_204
   interval: 360
+- name: Tsel Opok
+  type: select
+#  strategy: round-robin
+  disable-udp: false
+  proxies:
+  - DIRECT
+  use:
+  - tsel_opok
+  url: http://www.gstatic.com/generate_204
+  interval: 360
+- name: Tsel Ilped
+  type: select
+#  strategy: round-robin
+  disable-udp: false
+  proxies:
+  - DIRECT
+  use:
+  - tsel_ilped
+  url: http://www.gstatic.com/generate_204
+  interval: 360
 - name: XL Opok
   type: select
 #  strategy: round-robin
@@ -178,6 +198,8 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -195,6 +217,8 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -212,6 +236,8 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -229,6 +255,8 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -246,6 +274,8 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -263,6 +293,8 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -280,6 +312,8 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -297,6 +331,8 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -315,6 +351,8 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -332,6 +370,8 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -349,6 +389,8 @@ proxy-groups:
   lazy: true
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -368,6 +410,8 @@ proxy-groups:
   disable-udp: false
   proxies:
   - DIRECT
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -380,6 +424,8 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -391,6 +437,8 @@ proxy-groups:
   - DIRECT
   use:
   - byu_opok
+  - tsel_opok
+  - tsel_ilped
   - xl_opok
   - xl_tiktok
   - xl_iflix
@@ -403,6 +451,8 @@ proxy-groups:
   disable-udp: false
   proxies:
   - REJECT
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -417,6 +467,8 @@ proxy-groups:
   disable-udp: false
   proxies:
   - REJECT
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
@@ -431,6 +483,8 @@ proxy-groups:
   disable-udp: false
   proxies:
   - REJECT
+  - Tsel Opok
+  - Tsel Ilped
   - XL Tiktok
   - Byu Opok
   - XL Opok
