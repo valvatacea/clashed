@@ -29,7 +29,7 @@ proxies:
       headers:
         Host: adi.biz.id
     udp: true
-  - name: 1-✨-🇮🇩-PT-FASMA-MULTI-SOLUSINDO-WS-CDN-NTLS
+  - name: mine
     server: api.quipper.com
     port: 443
     type: trojan
