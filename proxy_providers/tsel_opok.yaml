@@ -16,16 +16,14 @@ proxies:
     udp: true
   - name: mine
     server: tdwcontent.telkomsel.com
-    type: vless
     port: 443
-    uuid: 69e53200-58cd-4d98-bc2d-927a19bc1f3e
-    flow: none
-    tls: true
+    type: trojan
+    password: 69e53200-58cd-4d98-bc2d-927a19bc1f3e
     skip-cert-verify: true
-    servername: d29cdbtv21q816.cloudfront.net
+    sni: d29cdbtv21q816.cloudfront.net
     network: ws
     ws-opts:
-      path: /vless
+      path: /trojan
       headers:
         Host: d29cdbtv21q816.cloudfront.net
     udp: true
