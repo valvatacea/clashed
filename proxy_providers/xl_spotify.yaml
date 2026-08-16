@@ -1,16 +1,14 @@
 proxies:
-  - name: nadia
+  - name: mine
     server: investors.spotify.com
     port: 443
-    type: vless
-    uuid: be6d3893-2bf1-4caa-87ed-aaa756b2f96e
-    cipher: auto
-    tls: true
+    type: trojan
+    password: b82886da-dace-4e4a-a6b8-9a554b23cb2a
     skip-cert-verify: true
-    servername: investors.spotify.com.nusa.vpnstore28.my.id
+    sni: investors.spotify.com.ikd.vpnstore28.my.id
     network: ws
     ws-opts:
-      path: /vless
+      path: /trojan
       headers:
-        Host: investors.spotify.com.nusa.vpnstore28.my.id
+        Host: investors.spotify.com.ikd.vpnstore28.my.id
     udp: true
