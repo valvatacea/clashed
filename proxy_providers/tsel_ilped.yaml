@@ -40,7 +40,7 @@ proxies:
     servername: kansas.zh4x.site
     network: ws
     ws-opts:
-      path: /36.95.152.58-12137
+      path: /vless
       headers:
         Host: kansas.zh4x.site
     udp: true
