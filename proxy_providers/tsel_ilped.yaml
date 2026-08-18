@@ -29,6 +29,21 @@ proxies:
       headers:
         Host: adi.biz.id
     udp: true
+  - name: danaelssh-178
+    server: api.quipper.com
+    type: vless
+    port: 443
+    uuid: fb0b56ee-1b8a-4ec9-af6b-2f2273f52b52
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: kansas.zh4x.site
+    network: ws
+    ws-opts:
+      path: /36.95.152.58-12137
+      headers:
+        Host: kansas.zh4x.site
+    udp: true
   - name: mine
     server: api.quipper.com
     port: 443
