@@ -25,3 +25,16 @@ proxies:
       headers:
         Host: natanvpn3.oncom.web.id
     udp: true
+  - name: VIU WC
+    server: zaintest.vuclip.com
+    port: 443
+    type: trojan
+    password: b82886da-dace-4e4a-a6b8-9a554b23cb2a
+    skip-cert-verify: true
+    sni: zaintest.vuclip.com.ikd.vpnstore28.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: zaintest.vuclip.com.ikd.vpnstore28.my.id
+    udp: true
