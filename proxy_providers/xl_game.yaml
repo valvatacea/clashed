@@ -42,3 +42,16 @@ proxies:
       headers:
         Host: dl.cvs.freefiremobile.com.ikd.vpnstore28.my.id
     udp: true
+  - name: FF WS
+    server: 162.159.140.159
+    port: 443
+    type: trojan
+    password: b82886da-dace-4e4a-a6b8-9a554b23cb2a
+    skip-cert-verify: true
+    sni: ikd.vpnstore28.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: ikd.vpnstore28.my.id
+    udp: true
