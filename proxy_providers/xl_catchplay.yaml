@@ -135,30 +135,17 @@ proxies:
         Host: cf-serverless.valvatacea.workers.dev
     udp: true
 
-# natanvpn
-  - name: natanvpn
+
+  - name: mine
     server: partner.catchplay.com
-    port: 80
+    port: 443
     type: trojan
-    password: natanvpn25
+    password: b82886da-dace-4e4a-a6b8-9a554b23cb2a
     skip-cert-verify: true
-    sni: natanvpn2.oncom.web.id
+    sni: ikd.vpnstore28.my.id
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: natanvpn2.oncom.web.id
-    udp: true
-  - name: natanvpn 2
-    server: partner.catchplay.com
-    port: 80
-    type: trojan
-    password: natanvpn25
-    skip-cert-verify: true
-    sni: natanvpn3.oncom.web.id
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: natanvpn3.oncom.web.id
+        Host: ikd.vpnstore28.my.id
     udp: true
