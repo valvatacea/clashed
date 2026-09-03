@@ -1,0 +1,44 @@
+proxies:
+  - name: ML WS | Amazon-ID-(Gombong)
+    server: cdn.aihelp.net
+    type: vless
+    port: 443
+    uuid: 278a7c23-9793-4f63-8e41-d86f7f4a7052
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: dos.biz.id
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-443
+      headers:
+        Host: dos.biz.id
+    udp: true
+  - name: FF SNI | PT-Telekomunikasi-Indonesia-(Gombong)
+    server: adi.biz.id
+    type: vless
+    port: 443
+    uuid: 278a7c23-9793-4f63-8e41-d86f7f4a7052
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: www.freefiremobile.com
+    network: ws
+    ws-opts:
+      path: /36.95.152.58-12137
+      headers:
+        Host: adi.biz.id
+    udp: true
+  - name: FreeFire WC
+    server: dl.cvs.freefiremobile.com
+    port: 443
+    type: trojan
+    password: b82886da-dace-4e4a-a6b8-9a554b23cb2a
+    skip-cert-verify: true
+    sni: dl.cvs.freefiremobile.com.ikd.vpnstore28.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: dl.cvs.freefiremobile.com.ikd.vpnstore28.my.id
+    udp: true
