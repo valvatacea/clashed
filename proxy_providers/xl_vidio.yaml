@@ -134,7 +134,7 @@ proxies:
       headers:
         Host: cf-serverless.valvatacea.workers.dev
     udp: true
-  - name: mine
+  - name: VIDIO
     server: quiz.int.vidio.com
     port: 443
     type: trojan
@@ -146,4 +146,30 @@ proxies:
       path: /trojan
       headers:
         Host: ikd.vpnstore28.my.id
+    udp: true
+  - name: VISION 1
+    server: cbn-cdn-flr.visionplus.id
+    port: 443
+    type: trojan
+    password: b82886da-dace-4e4a-a6b8-9a554b23cb2a
+    skip-cert-verify: true
+    sni: ikd.vpnstore28.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: ikd.vpnstore28.my.id
+    udp: true
+  - name: VISION 2
+    server: ikd.vpnstore28.my.id
+    port: 443
+    type: trojan
+    password: b82886da-dace-4e4a-a6b8-9a554b23cb2a
+    skip-cert-verify: true
+    sni: ikd.vpnstore28.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cbn-cdn-flr.visionplus.id
     udp: true
