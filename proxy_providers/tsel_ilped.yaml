@@ -48,12 +48,12 @@ proxies:
     server: api.quipper.com
     port: 443
     type: trojan
-    password: b82886da-dace-4e4a-a6b8-9a554b23cb2a
+    password: 611c9663-2bee-471d-a5db-9c2443eca6bc
     skip-cert-verify: true
-    sni: ikd.vpnstore28.my.id
+    sni: sg.vpnstore28.my.id
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: ikd.vpnstore28.my.id
+        Host: sg.vpnstore28.my.id
     udp: true
