@@ -3,16 +3,16 @@ proxies:
     server: tdwcontent.telkomsel.com
     type: vless
     port: 443
-    uuid: 2fb93639-5fb5-4b3f-9004-9d8982113b62
+    uuid: 4a0dea5c-61ad-4bef-a481-83feccfd9860
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d3cdy6viklzpq1.cloudfront.net
+    servername: dz1wsoabehhmc.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d3cdy6viklzpq1.cloudfront.net
+        Host: dz1wsoabehhmc.cloudfront.net
     udp: true
   - name: mine
     server: tdwcontent.telkomsel.com
