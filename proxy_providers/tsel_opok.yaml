@@ -1,18 +1,18 @@
 proxies:
-  - name: danaelssh-831
+  - name: val02
     server: tdwcontent.telkomsel.com
     type: vless
     port: 443
-    uuid: 4a0dea5c-61ad-4bef-a481-83feccfd9860
+    uuid: 2eff967d-014d-4e19-a5f8-249c3ae7c6f4
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d3cdy6viklzpq1.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d3cdy6viklzpq1.cloudfront.net
     udp: true
   - name: mine
     server: tdwcontent.telkomsel.com
