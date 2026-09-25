@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: d3cdy6viklzpq1.cloudfront.net
     udp: true
-  - name: val (indonesia)
+  - name: val 1 (indonesia)
     server: assets.web.q4inc.com
     type: vless
     port: 443
@@ -29,7 +29,7 @@ proxies:
       headers:
         Host: dz1wsoabehhmc.cloudfront.net
     udp: true
-  - name: val (indonesia)
+  - name: val 2 (indonesia)
     server: 13.249.231.84
     type: vless
     port: 443
