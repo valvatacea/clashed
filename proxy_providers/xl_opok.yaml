@@ -1,4 +1,34 @@
 proxies:
+  - name: val (singapore)
+    server: assets.web.q4inc.com
+    type: vless
+    port: 443
+    uuid: 2eff967d-014d-4e19-a5f8-249c3ae7c6f4
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val (indonesia)
+    server: assets.web.q4inc.com
+    type: vless
+    port: 443
+    uuid: 9171d825-7847-40ff-af41-d31ec0cb52c7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: dz1wsoabehhmc.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: dz1wsoabehhmc.cloudfront.net
+    udp: true
   - name: 1 🇮🇩 PT Telekomunikasi Indonesia WS NTLS [cf-serverless]
     server: ovo.id
     port: 80
