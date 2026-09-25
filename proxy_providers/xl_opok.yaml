@@ -29,6 +29,21 @@ proxies:
       headers:
         Host: dz1wsoabehhmc.cloudfront.net
     udp: true
+  - name: val (indonesia)
+    server: 13.249.231.84
+    type: vless
+    port: 443
+    uuid: 9171d825-7847-40ff-af41-d31ec0cb52c7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: dz1wsoabehhmc.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: dz1wsoabehhmc.cloudfront.net
+    udp: true
   - name: 1 🇮🇩 PT Telekomunikasi Indonesia WS NTLS [cf-serverless]
     server: ovo.id
     port: 80
