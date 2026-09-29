@@ -1,4 +1,17 @@
 proxies:
+  - name: salsa
+    server: sg.vpnstore28.my.id
+    port: 443
+    type: trojan
+    password: 611c9663-2bee-471d-a5db-9c2443eca6bc
+    skip-cert-verify: true
+    sni: live.iflix.com
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg.vpnstore28.my.id
+    udp: true
   - name: natanvpn
     server: natanvpn2.oncom.web.id
     port: 443
