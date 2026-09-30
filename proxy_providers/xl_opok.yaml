@@ -18,7 +18,7 @@ proxies:
     server: assets.web.q4inc.com
     type: vless
     port: 443
-    uuid: 9171d825-7847-40ff-af41-d31ec0cb52c7
+    uuid: 2482a7ac-1066-42dd-8b68-0291c0b6fb55
     flow: none
     tls: true
     skip-cert-verify: true
@@ -30,10 +30,10 @@ proxies:
         Host: dz1wsoabehhmc.cloudfront.net
     udp: true
   - name: val 2 (indonesia)
-    server: 13.249.231.84
+    server: 13.249.231.85
     type: vless
     port: 443
-    uuid: 9171d825-7847-40ff-af41-d31ec0cb52c7
+    uuid: 2482a7ac-1066-42dd-8b68-0291c0b6fb55
     flow: none
     tls: true
     skip-cert-verify: true
