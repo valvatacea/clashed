@@ -3,7 +3,7 @@ proxies:
     server: tdwcontent.telkomsel.com
     type: vless
     port: 443
-    uuid: 2eff967d-014d-4e19-a5f8-249c3ae7c6f4
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
     flow: none
     tls: true
     skip-cert-verify: true
