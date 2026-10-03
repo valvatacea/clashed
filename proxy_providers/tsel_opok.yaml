@@ -14,11 +14,11 @@ proxies:
       headers:
         Host: d3cdy6viklzpq1.cloudfront.net
     udp: true
-  - name: val (indonesia)
+  - name: val (indonesia) [0710]
     server: tdwcontent.telkomsel.com
     type: vless
     port: 443
-    uuid: 2482a7ac-1066-42dd-8b68-0291c0b6fb55
+    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
     flow: none
     tls: true
     skip-cert-verify: true
