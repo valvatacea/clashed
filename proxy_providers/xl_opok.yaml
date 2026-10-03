@@ -59,6 +59,51 @@ proxies:
       headers:
         Host: d3cdy6viklzpq1.cloudfront.net
     udp: true
+  - name: val 5 (singapore) [0710]
+    server: 13.35.202.129
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 6 (singapore) [0710]
+    server: 13.35.202.3
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 7 (singapore) [0710]
+    server: 108.138.141.90
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
   - name: val 1 (indonesia)
     server: assets.web.q4inc.com
     type: vless
