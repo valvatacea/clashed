@@ -44,6 +44,21 @@ proxies:
       headers:
         Host: d3cdy6viklzpq1.cloudfront.net
     udp: true
+  - name: val 4 (singapore) [0710]
+    server: 18.161.49.111
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
   - name: val 1 (indonesia)
     server: assets.web.q4inc.com
     type: vless
