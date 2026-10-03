@@ -224,18 +224,3 @@ proxies:
       headers:
         Host: cf-serverless.valvatacea.workers.dev
     udp: true
-  - name: 9 🇸🇬 Alibaba Cloud (Singapore) Private Limited WS NTLS [cf-serverless]
-    server: ovo.id
-    port: 80
-    type: vless
-    uuid: a517098e-0053-40a3-ba1c-fe50d2e373df
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: cf-serverless.valvatacea.workers.dev
-    network: ws
-    ws-opts:
-      path: /8.219.58.164-57373
-      headers:
-        Host: cf-serverless.valvatacea.workers.dev
-    udp: true
