@@ -1,0 +1,378 @@
+proxies:
+  - name: val 1 (singapore) [0710]
+    server: 18.64.37.72
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 2 (singapore) [0710]
+    server: 108.138.141.90
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 3 (singapore) [0710]
+    server: 13.249.231.85
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 4 (singapore) [0710]
+    server: 13.249.231.84
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 5 (singapore) [0710]
+    server: 13.35.202.97
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 6 (singapore) [0710]
+    server: 13.35.202.3
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 7 (singapore) [0710]
+    server: 13.35.202.129
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 8 (singapore) [0710]
+    server: 108.138.141.61
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 9 (singapore) [0710]
+    server: 13.249.231.81
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 10 (singapore) [0710]
+    server: 108.138.141.90
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 11 (singapore) [0710]
+    server: 108.138.141.79
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 12 (singapore) [0710]
+    server: 108.138.141.59
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 13 (singapore) [0710]
+    server: 108.138.141.73
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 14 (singapore) [0710]
+    server: 18.64.37.72
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 15 (singapore) [0710]
+    server: 18.161.49.111
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 16 (singapore) [0710]
+    server: 18.161.49.41
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 17 (singapore) [0710]
+    server: 18.161.49.116
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 18 (singapore) [0710]
+    server: 18.161.49.127
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 19 (singapore) [0710]
+    server: 18.161.49.116
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 20 (singapore) [0710]
+    server: assets.web.q4inc.com
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 21 (singapore) [0710]
+    server: tdwcontent.telkomsel.com
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+
+
+  - name: val 1 (indonesia)
+    server: assets.web.q4inc.com
+    type: vless
+    port: 443
+    uuid: 2482a7ac-1066-42dd-8b68-0291c0b6fb55
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: dz1wsoabehhmc.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: dz1wsoabehhmc.cloudfront.net
+    udp: true
+  - name: val 2 (indonesia)
+    server: 13.249.231.84
+    type: vless
+    port: 443
+    uuid: 2482a7ac-1066-42dd-8b68-0291c0b6fb55
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: dz1wsoabehhmc.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: dz1wsoabehhmc.cloudfront.net
+    udp: true
+  - name: val 3 (indonesia)
+    server: 13.249.231.85
+    type: vless
+    port: 443
+    uuid: 2482a7ac-1066-42dd-8b68-0291c0b6fb55
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: dz1wsoabehhmc.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: dz1wsoabehhmc.cloudfront.net
+    udp: true
+  - name: val 4 (indonesia)
+    server: 13.35.202.97
+    type: vless
+    port: 443
+    uuid: 2482a7ac-1066-42dd-8b68-0291c0b6fb55
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: dz1wsoabehhmc.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: dz1wsoabehhmc.cloudfront.net
+    udp: true
