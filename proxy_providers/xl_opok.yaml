@@ -1,9 +1,24 @@
 proxies:
-  - name: val (singapore)
+  - name: val 1 (singapore) [0710]
     server: assets.web.q4inc.com
     type: vless
     port: 443
-    uuid: 2eff967d-014d-4e19-a5f8-249c3ae7c6f4
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d3cdy6viklzpq1.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d3cdy6viklzpq1.cloudfront.net
+    udp: true
+  - name: val 2 (singapore) [0710]
+    server: 13.249.231.85
+    type: vless
+    port: 443
+    uuid: 45639149-5903-496c-97f8-c32cda59deb7
     flow: none
     tls: true
     skip-cert-verify: true
