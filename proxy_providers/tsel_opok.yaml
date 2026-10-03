@@ -30,15 +30,15 @@ proxies:
         Host: dz1wsoabehhmc.cloudfront.net
     udp: true
   - name: mine
-    server: tdwcontent.telkomsel.com
+    server: 104.18.17.214
     port: 443
     type: trojan
-    password: b82886da-dace-4e4a-a6b8-9a554b23cb2a
+    password: 611c9663-2bee-471d-a5db-9c2443eca6bc
     skip-cert-verify: true
-    sni: d10neyqmrsw266.cloudfront.net
+    sni: sg.vpnstore28.my.id
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: d10neyqmrsw266.cloudfront.net
+        Host: sg.vpnstore28.my.id
     udp: true
