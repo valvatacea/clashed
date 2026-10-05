@@ -381,14 +381,14 @@ proxies:
     server: 13.249.231.85
     type: vless
     port: 443
-    uuid: 3a7339c9-6f81-425f-9720-0ba0baab6d5c
+    uuid: fe522a78-3c95-4885-a96a-643f7f81a595
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dnuziifot7vvr.cloudfront.net
+    servername: d1lnzdlpso56a0.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dnuziifot7vvr.cloudfront.net
+        Host: d1lnzdlpso56a0.cloudfront.net
     udp: true
