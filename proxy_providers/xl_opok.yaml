@@ -376,3 +376,19 @@ proxies:
       headers:
         Host: dz1wsoabehhmc.cloudfront.net
     udp: true
+    
+  - name: trial
+    server: 13.249.231.85
+    type: vless
+    port: 443
+    uuid: 3a7339c9-6f81-425f-9720-0ba0baab6d5c
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: dnuziifot7vvr.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: dnuziifot7vvr.cloudfront.net
+    udp: true
