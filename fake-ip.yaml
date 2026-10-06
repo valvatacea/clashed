@@ -433,6 +433,48 @@ proxy-groups:
   - REJECT
   url: http://www.gstatic.com/generate_204
   interval: '30'
+- name: TrafficCustom
+  type: select
+  lazy: true
+  disable-udp: false
+  proxies:
+  - Tsel Opok
+  - Tsel Ilped
+  - XL Tiktok
+  - Byu Opok
+  - XL Opok
+  - XL Iflix
+  - XL Catchplay
+  - XL Vidio
+  - XL Spotify
+  - XL Noice
+  - XL Game
+  - DIRECT
+  - REJECT
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
+- name: TrafficCustomDomain
+  type: select
+  lazy: true
+  disable-udp: false
+  proxies:
+  - Tsel Opok
+  - Tsel Ilped
+  - XL Tiktok
+  - Byu Opok
+  - XL Opok
+  - XL Iflix
+  - XL Catchplay
+  - XL Vidio
+  - XL Spotify
+  - XL Noice
+  - XL Game
+  - DIRECT
+  - REJECT
+  url: http://www.gstatic.com/generate_204
+  interval: '30'
+
+
 
 
 - name: TrafficPortGames
@@ -799,6 +841,8 @@ rules:
 - RULE-SET,rule_games,TrafficGaming
 - RULE-SET,rule_discord,TrafficGaming
 - RULE-SET,rule_umum,TrafficUmum
+- RULE-SET,rule_custom_classical,TrafficCustom
+- RULE-SET,rule_custom_domain,TrafficCustomDomain
 - MATCH,GLOBAL
 
 
@@ -1077,3 +1121,15 @@ rule-providers:
     path: "./rule_provider/rule_youtube_extended.yaml"
     interval: 86400
 ipv6: true
+  rule_custom_classical:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/rule_provider/rule_custom_classical.yaml
+    path: "./rule_provider/rule_custom_classical.yaml"
+    interval: 86400
+  rule_custom_domain:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/rule_provider/rule_custom_domain.yaml
+    path: "./rule_provider/rule_custom_domain.yaml"
+    interval: 86400
