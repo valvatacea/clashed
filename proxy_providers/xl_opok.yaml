@@ -292,12 +292,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 21 (indo) [0511]
     server: tdwcontent.telkomsel.com
