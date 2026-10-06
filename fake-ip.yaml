@@ -1120,7 +1120,6 @@ rule-providers:
     url: https://raw.githubusercontent.com/valvatacea/clashed/main/custom_rule_provider/rule_youtube_extended.yaml
     path: "./rule_provider/rule_youtube_extended.yaml"
     interval: 86400
-ipv6: true
   rule_custom_classical:
     type: http
     behavior: classical
@@ -1133,3 +1132,5 @@ ipv6: true
     url: https://raw.githubusercontent.com/valvatacea/clashed/main/rule_provider/rule_custom_domain.yaml
     path: "./rule_provider/rule_custom_domain.yaml"
     interval: 86400
+    
+ipv6: true
