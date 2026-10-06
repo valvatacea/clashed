@@ -3,316 +3,316 @@ proxies:
     server: 18.64.37.72
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 2 (indo) [0710]
     server: 108.138.141.90
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 3 (indo) [0710]
     server: 13.249.231.85
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 4 (indo) [0710]
     server: 13.249.231.84
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 5 (indo) [0710]
     server: 13.35.202.97
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 6 (indo) [0710]
     server: 13.35.202.3
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 7 (indo) [0710]
     server: 13.35.202.129
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 8 (indo) [0710]
     server: 108.138.141.61
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 9 (indo) [0710]
     server: 13.249.231.81
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 10 (indo) [0710]
     server: 108.138.141.90
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 11 (indo) [0710]
     server: 108.138.141.79
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 12 (indo) [0710]
     server: 108.138.141.59
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 13 (indo) [0710]
     server: 108.138.141.73
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 14 (indo) [0710]
     server: 18.64.37.72
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 15 (indo) [0710]
     server: 18.161.49.111
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 16 (indo) [0710]
     server: 18.161.49.41
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 17 (indo) [0710]
     server: 18.161.49.116
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 18 (indo) [0710]
     server: 18.161.49.127
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 19 (indo) [0710]
     server: 18.161.49.116
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 20 (indo) [0710]
     server: assets.web.q4inc.com
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
   - name: val 21 (indo) [0710]
     server: tdwcontent.telkomsel.com
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d11dymj6ul901r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d11dymj6ul901r.cloudfront.net
     udp: true
 
 
@@ -377,48 +377,3 @@ proxies:
         Host: dz1wsoabehhmc.cloudfront.net
     udp: true
     
-  - name: trial 1
-    server: 13.249.231.85
-    type: vless
-    port: 443
-    uuid: fe522a78-3c95-4885-a96a-643f7f81a595
-    flow: none
-    tls: true
-    skip-cert-verify: true
-    servername: d1lnzdlpso56a0.cloudfront.net
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: d1lnzdlpso56a0.cloudfront.net
-    udp: true
-  - name: trial 2
-    server: 13.249.231.85
-    type: vless
-    port: 443
-    uuid: c230e117-f305-4723-956b-7b359ad1c54c
-    flow: none
-    tls: true
-    skip-cert-verify: true
-    servername: dnuziifot7vvr.cloudfront.net
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: dnuziifot7vvr.cloudfront.net
-    udp: true
-  - name: trial 3
-    server: 13.249.231.85
-    type: vless
-    port: 443
-    uuid: 5e791309-f497-4cb3-97c0-21c5c1b19a7c
-    flow: none
-    tls: true
-    skip-cert-verify: true
-    servername: dnuziifot7vvr.cloudfront.net
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: dnuziifot7vvr.cloudfront.net
-    udp: true
