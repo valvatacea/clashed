@@ -7,12 +7,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 2 (indo) [0710]
     server: 108.138.141.90
@@ -22,12 +22,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 3 (indo) [0710]
     server: 13.249.231.85
@@ -37,12 +37,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 4 (indo) [0710]
     server: 13.249.231.84
@@ -52,12 +52,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 5 (indo) [0710]
     server: 13.35.202.97
@@ -67,12 +67,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 6 (indo) [0710]
     server: 13.35.202.3
@@ -82,12 +82,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 7 (indo) [0710]
     server: 13.35.202.129
@@ -97,12 +97,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 8 (indo) [0710]
     server: 108.138.141.61
@@ -112,12 +112,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 9 (indo) [0710]
     server: 13.249.231.81
@@ -127,12 +127,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 10 (indo) [0710]
     server: 108.138.141.90
@@ -142,12 +142,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 11 (indo) [0710]
     server: 108.138.141.79
@@ -157,12 +157,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 12 (indo) [0710]
     server: 108.138.141.59
@@ -172,12 +172,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 13 (indo) [0710]
     server: 108.138.141.73
@@ -187,12 +187,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 14 (indo) [0710]
     server: 18.64.37.72
@@ -202,12 +202,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 15 (indo) [0710]
     server: 18.161.49.111
@@ -217,12 +217,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 16 (indo) [0710]
     server: 18.161.49.41
@@ -232,12 +232,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 17 (indo) [0710]
     server: 18.161.49.116
@@ -247,12 +247,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 18 (indo) [0710]
     server: 18.161.49.127
@@ -262,12 +262,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 19 (indo) [0710]
     server: 18.161.49.116
@@ -277,12 +277,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 20 (indo) [0710]
     server: assets.web.q4inc.com
@@ -292,12 +292,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
   - name: val 21 (indo) [0710]
     server: tdwcontent.telkomsel.com
@@ -307,12 +307,12 @@ proxies:
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d11dymj6ul901r.cloudfront.net
+    servername: d1s160zte20y2r.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d1s160zte20y2r.cloudfront.net
     udp: true
 
 
