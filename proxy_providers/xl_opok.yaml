@@ -316,64 +316,64 @@ proxies:
     udp: true
 
 
-  - name: val 1 (indonesia) [0710]
+  - name: val 1 (india) [1110]
     server: assets.web.q4inc.com
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 5fa00fb3-e218-441f-85e9-12016b4064ea
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d37bawnvqx75hf.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d37bawnvqx75hf.cloudfront.net
     udp: true
-  - name: val 2 (indonesia) [0710]
+  - name: val 2 (india) [1110]
     server: 13.249.231.84
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 5fa00fb3-e218-441f-85e9-12016b4064ea
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d37bawnvqx75hf.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d37bawnvqx75hf.cloudfront.net
     udp: true
-  - name: val 3 (indonesia) [0710]
+  - name: val 3 (india) [1110]
     server: 13.249.231.85
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 5fa00fb3-e218-441f-85e9-12016b4064ea
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d37bawnvqx75hf.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d37bawnvqx75hf.cloudfront.net
     udp: true
-  - name: val 4 (indonesia) [0710]
+  - name: val 4 (india) [1110]
     server: 13.35.202.97
     type: vless
     port: 443
-    uuid: eb19f24b-f910-406e-8a00-2da446cb935f
+    uuid: 5fa00fb3-e218-441f-85e9-12016b4064ea
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: dz1wsoabehhmc.cloudfront.net
+    servername: d37bawnvqx75hf.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: dz1wsoabehhmc.cloudfront.net
+        Host: d37bawnvqx75hf.cloudfront.net
     udp: true
     
