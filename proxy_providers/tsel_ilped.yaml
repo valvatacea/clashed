@@ -44,16 +44,18 @@ proxies:
       headers:
         Host: kansas.zh4x.site
     udp: true
-  - name: mine
+  - name: mine (indo) [0511]
     server: api.quipper.com
+    type: vless
     port: 443
-    type: trojan
-    password: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
+    flow: none
+    tls: true
     skip-cert-verify: true
-    sni: biznet.vpnstore28.my.id
+    servername: biznet.vpnstore28.my.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vless
       headers:
         Host: biznet.vpnstore28.my.id
     udp: true
