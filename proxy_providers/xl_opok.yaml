@@ -376,4 +376,67 @@ proxies:
       headers:
         Host: d37bawnvqx75hf.cloudfront.net
     udp: true
+
+
+  - name: val 1 (brazil) [1210]
+    server: assets.web.q4inc.com
+    type: vless
+    port: 443
+    uuid: 6c39b926-3112-4252-a819-3f2af7f17458
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d307384r2s75l3.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d307384r2s75l3.cloudfront.net
+    udp: true
+  - name: val 2 (brazil) [1210]
+    server: 13.249.231.84
+    type: vless
+    port: 443
+    uuid: 6c39b926-3112-4252-a819-3f2af7f17458
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d307384r2s75l3.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d307384r2s75l3.cloudfront.net
+    udp: true
+  - name: val 3 (brazil) [1210]
+    server: 13.249.231.85
+    type: vless
+    port: 443
+    uuid: 6c39b926-3112-4252-a819-3f2af7f17458
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d307384r2s75l3.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d307384r2s75l3.cloudfront.net
+    udp: true
+  - name: val 4 (brazil) [1210]
+    server: 13.35.202.97
+    type: vless
+    port: 443
+    uuid: 6c39b926-3112-4252-a819-3f2af7f17458
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d307384r2s75l3.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d307384r2s75l3.cloudfront.net
+    udp: true
+    
     
