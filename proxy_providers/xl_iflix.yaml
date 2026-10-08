@@ -1,16 +1,18 @@
 proxies:
-  - name: salsa
-    server: sg.vpnstore28.my.id
+  - name: mine (indo) [0511]
+    server: biznet.vpnstore28.my.id
+    type: vless
     port: 443
-    type: trojan
-    password: 611c9663-2bee-471d-a5db-9c2443eca6bc
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
+    flow: none
+    tls: true
     skip-cert-verify: true
-    sni: live.iflix.com
+    servername: live.iflix.com
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vless
       headers:
-        Host: sg.vpnstore28.my.id
+        Host: biznet.vpnstore28.my.id
     udp: true
   - name: natanvpn
     server: natanvpn2.oncom.web.id
