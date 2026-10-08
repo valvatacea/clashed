@@ -14,6 +14,21 @@ proxies:
       headers:
         Host: biznet.vpnstore28.my.id
     udp: true
+  - name: mine WC (indo) [0511]
+    server: zaintest.vuclip.com
+    type: vless
+    port: 443
+    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: zaintest.vuclip.com.biznet.vpnstore28.my.id
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: zaintest.vuclip.com.biznet.vpnstore28.my.id
+    udp: true
   - name: natanvpn
     server: natanvpn2.oncom.web.id
     port: 443
@@ -40,16 +55,4 @@ proxies:
       headers:
         Host: natanvpn3.oncom.web.id
     udp: true
-  - name: VIU WC
-    server: zaintest.vuclip.com
-    port: 443
-    type: trojan
-    password: 611c9663-2bee-471d-a5db-9c2443eca6bc
-    skip-cert-verify: true
-    sni: zaintest.vuclip.com.sg.vpnstore28.my.id
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: zaintest.vuclip.com.sg.vpnstore28.my.id
-    udp: true
+
