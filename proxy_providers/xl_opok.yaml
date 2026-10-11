@@ -316,11 +316,11 @@ proxies:
     udp: true
 
 
-  - name: val 1 (india) [1110]
+  - name: val 1 (india) [1510]
     server: assets.web.q4inc.com
     type: vless
     port: 443
-    uuid: 5fa00fb3-e218-441f-85e9-12016b4064ea
+    uuid: 21c7b118-7cd7-4d9d-ac9e-3295a8870f65
     flow: none
     tls: true
     skip-cert-verify: true
@@ -331,11 +331,11 @@ proxies:
       headers:
         Host: d37bawnvqx75hf.cloudfront.net
     udp: true
-  - name: val 2 (india) [1110]
+  - name: val 2 (india) [1510]
     server: 13.249.231.84
     type: vless
     port: 443
-    uuid: 5fa00fb3-e218-441f-85e9-12016b4064ea
+    uuid: 21c7b118-7cd7-4d9d-ac9e-3295a8870f65
     flow: none
     tls: true
     skip-cert-verify: true
@@ -346,11 +346,11 @@ proxies:
       headers:
         Host: d37bawnvqx75hf.cloudfront.net
     udp: true
-  - name: val 3 (india) [1110]
+  - name: val 3 (india) [1510]
     server: 13.249.231.85
     type: vless
     port: 443
-    uuid: 5fa00fb3-e218-441f-85e9-12016b4064ea
+    uuid: 21c7b118-7cd7-4d9d-ac9e-3295a8870f65
     flow: none
     tls: true
     skip-cert-verify: true
@@ -361,11 +361,11 @@ proxies:
       headers:
         Host: d37bawnvqx75hf.cloudfront.net
     udp: true
-  - name: val 4 (india) [1110]
+  - name: val 4 (india) [1510]
     server: 13.35.202.97
     type: vless
     port: 443
-    uuid: 5fa00fb3-e218-441f-85e9-12016b4064ea
+    uuid: 21c7b118-7cd7-4d9d-ac9e-3295a8870f65
     flow: none
     tls: true
     skip-cert-verify: true
