@@ -1,5 +1,5 @@
 proxies:
-  - name: mine
+  - name: mine [0511]
     server: 13.249.231.85
     port: 443
     type: trojan
