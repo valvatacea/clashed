@@ -1,34 +1,21 @@
 proxies:
-  - name: mine (indo) [0511]
+  - name: mine
     server: biznet.vpnstore28.my.id
-    type: vless
     port: 443
-    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
-    flow: none
-    tls: true
+    type: trojan
+    password: 94b8215f-b9e3-4612-909a-6edea8a03f38
     skip-cert-verify: true
-    servername: live.iflix.com
+    sni: live.iflix.com
     network: ws
     ws-opts:
-      path: /vless
+      path: /trojan
       headers:
         Host: biznet.vpnstore28.my.id
     udp: true
-  - name: mine WC (indo) [0511]
-    server: zaintest.vuclip.com
-    type: vless
-    port: 443
-    uuid: 0eea57fd-2e41-4578-9a28-609e9a0f69c5
-    flow: none
-    tls: true
-    skip-cert-verify: true
-    servername: zaintest.vuclip.com.biznet.vpnstore28.my.id
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: zaintest.vuclip.com.biznet.vpnstore28.my.id
-    udp: true
+
+
+  
+
   - name: natanvpn
     server: natanvpn2.oncom.web.id
     port: 443
