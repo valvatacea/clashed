@@ -1,5 +1,5 @@
 proxies:
-  - name: mine
+  - name: mine [0501]
     server: biznet.vpnstore28.my.id
     port: 443
     type: trojan
