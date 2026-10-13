@@ -76,11 +76,11 @@ proxies:
     udp: true
 
 
-  - name: val 1 (brazil) [1210]
+  - name: val 1 (brazil) [1610]
     server: assets.web.q4inc.com
     type: vless
     port: 443
-    uuid: 6c39b926-3112-4252-a819-3f2af7f17458
+    uuid: a3bb96d3-5cfb-44e4-a24f-95b3717a697c
     flow: none
     tls: true
     skip-cert-verify: true
@@ -91,11 +91,11 @@ proxies:
       headers:
         Host: d307384r2s75l3.cloudfront.net
     udp: true
-  - name: val 2 (brazil) [1210]
+  - name: val 2 (brazil) [1610]
     server: 13.249.231.84
     type: vless
     port: 443
-    uuid: 6c39b926-3112-4252-a819-3f2af7f17458
+    uuid: a3bb96d3-5cfb-44e4-a24f-95b3717a697c
     flow: none
     tls: true
     skip-cert-verify: true
@@ -106,11 +106,11 @@ proxies:
       headers:
         Host: d307384r2s75l3.cloudfront.net
     udp: true
-  - name: val 3 (brazil) [1210]
+  - name: val 3 (brazil) [1610]
     server: 13.249.231.85
     type: vless
     port: 443
-    uuid: 6c39b926-3112-4252-a819-3f2af7f17458
+    uuid: a3bb96d3-5cfb-44e4-a24f-95b3717a697c
     flow: none
     tls: true
     skip-cert-verify: true
@@ -121,11 +121,11 @@ proxies:
       headers:
         Host: d307384r2s75l3.cloudfront.net
     udp: true
-  - name: val 4 (brazil) [1210]
+  - name: val 4 (brazil) [1610]
     server: 13.35.202.97
     type: vless
     port: 443
-    uuid: 6c39b926-3112-4252-a819-3f2af7f17458
+    uuid: a3bb96d3-5cfb-44e4-a24f-95b3717a697c
     flow: none
     tls: true
     skip-cert-verify: true
