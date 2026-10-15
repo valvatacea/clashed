@@ -1,20 +1,20 @@
 proxies:
-  - name: val (singapore) [0710]
+  - name: val (india) [1910]
     server: tdwcontent.telkomsel.com
     type: vless
     port: 443
-    uuid: 45639149-5903-496c-97f8-c32cda59deb7
+    uuid: d9d8978f-5543-4984-9505-7bc5e3d3c5da
     flow: none
     tls: true
     skip-cert-verify: true
-    servername: d3cdy6viklzpq1.cloudfront.net
+    servername: d37bawnvqx75hf.cloudfront.net
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: d3cdy6viklzpq1.cloudfront.net
+        Host: d37bawnvqx75hf.cloudfront.net
     udp: true
-  - name: val 1 (indonesia) [0710]
+  - name: val 1 (indonesia) [1910]
     server: tdwcontent.telkomsel.com
     type: vless
     port: 443
@@ -29,7 +29,7 @@ proxies:
       headers:
         Host: dz1wsoabehhmc.cloudfront.net
     udp: true
-  - name: val 2 (indonesia) [0710]
+  - name: val 2 (indonesia) [1910]
     server: 104.18.17.214
     type: vless
     port: 443
