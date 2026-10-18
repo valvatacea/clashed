@@ -14,8 +14,9 @@ proxies:
     udp: true
 
 
+  
   - name: val 1 (india) [1910]
-    server: assets.web.q4inc.com
+    server: 13.249.231.84
     type: vless
     port: 443
     uuid: d9d8978f-5543-4984-9505-7bc5e3d3c5da
@@ -30,21 +31,6 @@ proxies:
         Host: d37bawnvqx75hf.cloudfront.net
     udp: true
   - name: val 2 (india) [1910]
-    server: 13.249.231.84
-    type: vless
-    port: 443
-    uuid: d9d8978f-5543-4984-9505-7bc5e3d3c5da
-    flow: none
-    tls: true
-    skip-cert-verify: true
-    servername: d37bawnvqx75hf.cloudfront.net
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: d37bawnvqx75hf.cloudfront.net
-    udp: true
-  - name: val 3 (india) [1910]
     server: 13.249.231.85
     type: vless
     port: 443
@@ -59,25 +45,11 @@ proxies:
       headers:
         Host: d37bawnvqx75hf.cloudfront.net
     udp: true
-  - name: val 4 (india) [1910]
-    server: 13.35.202.97
-    type: vless
-    port: 443
-    uuid: d9d8978f-5543-4984-9505-7bc5e3d3c5da
-    flow: none
-    tls: true
-    skip-cert-verify: true
-    servername: d37bawnvqx75hf.cloudfront.net
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: d37bawnvqx75hf.cloudfront.net
-    udp: true
 
 
+  
   - name: val 1 (usa) [2210]
-    server: assets.web.q4inc.com
+    server: 13.249.231.84
     type: vless
     port: 443
     uuid: a6ecdcd4-4ce2-46a6-9c43-5fdca833f126
@@ -92,21 +64,6 @@ proxies:
         Host: d307384r2s75l3.cloudfront.net
     udp: true
   - name: val 2 (usa) [2210]
-    server: 13.249.231.84
-    type: vless
-    port: 443
-    uuid: a6ecdcd4-4ce2-46a6-9c43-5fdca833f126
-    flow: none
-    tls: true
-    skip-cert-verify: true
-    servername: d307384r2s75l3.cloudfront.net
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: d307384r2s75l3.cloudfront.net
-    udp: true
-  - name: val 3 (usa) [2210]
     server: 13.249.231.85
     type: vless
     port: 443
@@ -121,20 +78,3 @@ proxies:
       headers:
         Host: d307384r2s75l3.cloudfront.net
     udp: true
-  - name: val 4 (usa) [2210]
-    server: 13.35.202.97
-    type: vless
-    port: 443
-    uuid: a6ecdcd4-4ce2-46a6-9c43-5fdca833f126
-    flow: none
-    tls: true
-    skip-cert-verify: true
-    servername: d307384r2s75l3.cloudfront.net
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: d307384r2s75l3.cloudfront.net
-    udp: true
-    
-    
