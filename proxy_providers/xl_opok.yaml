@@ -52,7 +52,7 @@ proxies:
     server: 13.249.231.84
     type: vless
     port: 443
-    uuid: a6ecdcd4-4ce2-46a6-9c43-5fdca833f126
+    uuid: f4cab859-49fd-4cb9-a74a-509f7c743127
     flow: none
     tls: true
     skip-cert-verify: true
@@ -67,7 +67,7 @@ proxies:
     server: 13.249.231.85
     type: vless
     port: 443
-    uuid: a6ecdcd4-4ce2-46a6-9c43-5fdca833f126
+    uuid: f4cab859-49fd-4cb9-a74a-509f7c743127
     flow: none
     tls: true
     skip-cert-verify: true
