@@ -19,7 +19,7 @@ proxies:
     server: 13.249.231.84
     type: vless
     port: 443
-    uuid: d9d8978f-5543-4984-9505-7bc5e3d3c5da
+    uuid: ee94ed18-58f7-444e-a0ad-26e12bb3b363
     flow: none
     tls: true
     skip-cert-verify: true
@@ -34,7 +34,7 @@ proxies:
     server: 13.249.231.85
     type: vless
     port: 443
-    uuid: d9d8978f-5543-4984-9505-7bc5e3d3c5da
+    uuid: ee94ed18-58f7-444e-a0ad-26e12bb3b363
     flow: none
     tls: true
     skip-cert-verify: true
@@ -52,7 +52,7 @@ proxies:
     server: 13.249.231.84
     type: vless
     port: 443
-    uuid: f4cab859-49fd-4cb9-a74a-509f7c743127
+    uuid: 908e0016-727e-40ff-b500-7b5cce9930d2
     flow: none
     tls: true
     skip-cert-verify: true
@@ -67,7 +67,7 @@ proxies:
     server: 13.249.231.85
     type: vless
     port: 443
-    uuid: f4cab859-49fd-4cb9-a74a-509f7c743127
+    uuid: 908e0016-727e-40ff-b500-7b5cce9930d2
     flow: none
     tls: true
     skip-cert-verify: true
