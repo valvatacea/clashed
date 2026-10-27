@@ -15,11 +15,11 @@ proxies:
 
 
   
-  - name: val 1 (india) [1910]
+  - name: val 1 (india) [3110]
     server: 13.249.231.84
     type: vless
     port: 443
-    uuid: ee94ed18-58f7-444e-a0ad-26e12bb3b363
+    uuid: d8f00637-5da7-4c31-8c15-85a700e44471
     flow: none
     tls: true
     skip-cert-verify: true
@@ -30,11 +30,11 @@ proxies:
       headers:
         Host: d37bawnvqx75hf.cloudfront.net
     udp: true
-  - name: val 2 (india) [1910]
+  - name: val 2 (india) [3110]
     server: 13.249.231.85
     type: vless
     port: 443
-    uuid: ee94ed18-58f7-444e-a0ad-26e12bb3b363
+    uuid: d8f00637-5da7-4c31-8c15-85a700e44471
     flow: none
     tls: true
     skip-cert-verify: true
@@ -48,11 +48,11 @@ proxies:
 
 
   
-  - name: val 1 (usa) [2210]
+  - name: val 1 (usa) [3110]
     server: 13.249.231.84
     type: vless
     port: 443
-    uuid: 908e0016-727e-40ff-b500-7b5cce9930d2
+    uuid: 03617ee2-60db-4dbb-8ba1-0a0d2c4045d4
     flow: none
     tls: true
     skip-cert-verify: true
@@ -63,11 +63,11 @@ proxies:
       headers:
         Host: d307384r2s75l3.cloudfront.net
     udp: true
-  - name: val 2 (usa) [2210]
+  - name: val 2 (usa) [3110]
     server: 13.249.231.85
     type: vless
     port: 443
-    uuid: 908e0016-727e-40ff-b500-7b5cce9930d2
+    uuid: 03617ee2-60db-4dbb-8ba1-0a0d2c4045d4
     flow: none
     tls: true
     skip-cert-verify: true
@@ -77,4 +77,37 @@ proxies:
       path: /vless
       headers:
         Host: d307384r2s75l3.cloudfront.net
+    udp: true
+
+
+  
+  - name: val 1 (mexico) [3110]
+    server: 13.249.231.84
+    type: vless
+    port: 443
+    uuid: 3dfbf897-6caa-45c7-a8ed-39715b5838ba
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d16l6nb4do0zu4.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d16l6nb4do0zu4.cloudfront.net
+    udp: true
+  - name: val 2 (mexico) [3110]
+    server: 13.249.231.85
+    type: vless
+    port: 443
+    uuid: 3dfbf897-6caa-45c7-a8ed-39715b5838ba
+    flow: none
+    tls: true
+    skip-cert-verify: true
+    servername: d16l6nb4do0zu4.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: d16l6nb4do0zu4.cloudfront.net
     udp: true
