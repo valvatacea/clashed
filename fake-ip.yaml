@@ -1123,13 +1123,13 @@ rule-providers:
   rule_custom_classical:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/valvatacea/clashed/main/rule_provider/rule_custom_classical.yaml
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/custom_rule_provider/rule_custom_classical.yaml
     path: "./rule_provider/rule_custom_classical.yaml"
     interval: 86400
   rule_custom_domain:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/valvatacea/clashed/main/rule_provider/rule_custom_domain.yaml
+    url: https://raw.githubusercontent.com/valvatacea/clashed/main/custom_rule_provider/rule_custom_domain.yaml
     path: "./rule_provider/rule_custom_domain.yaml"
     interval: 86400
     
