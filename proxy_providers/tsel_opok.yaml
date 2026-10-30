@@ -50,12 +50,12 @@ proxies:
     type: trojan
     password: 94b8215f-b9e3-4612-909a-6edea8a03f38
     skip-cert-verify: true
-    sni: d11dymj6ul901r.cloudfront.net
+    sni: d2woxywv9mctnq.cloudfront.net
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d2woxywv9mctnq.cloudfront.net
     udp: true
   - name: mine 2 [0511]
     server: 104.18.17.214
@@ -63,10 +63,10 @@ proxies:
     type: trojan
     password: 94b8215f-b9e3-4612-909a-6edea8a03f38
     skip-cert-verify: true
-    sni: d11dymj6ul901r.cloudfront.net
+    sni: d2woxywv9mctnq.cloudfront.net
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: d11dymj6ul901r.cloudfront.net
+        Host: d2woxywv9mctnq.cloudfront.net
     udp: true
