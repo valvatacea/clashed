@@ -21,7 +21,7 @@ proxies:
     sni: d2bv7k4k37mb04.cloudfront.net
     network: ws
     ws-opts:
-      path: /trojan
+      path: /cdn-trojan
       headers:
         Host: d2bv7k4k37mb04.cloudfront.net
     udp: true
