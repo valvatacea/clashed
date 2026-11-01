@@ -19,7 +19,7 @@ proxies:
     port: 443
     type: trojan
     password: c5c51850bdbc4a9f95b42b8290253f91
-    skip-cert-verify: true
+    skip-cert-verify: false
     sni: d2bv7k4k37mb04.cloudfront.net
     network: ws
     ws-opts:
