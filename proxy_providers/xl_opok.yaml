@@ -12,6 +12,8 @@ proxies:
       headers:
         Host: d2woxywv9mctnq.cloudfront.net
     udp: true
+
+  
   - name: Trojan-WS-CDN-xl_opok
     server: 13.249.231.85
     port: 443
