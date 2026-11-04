@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: d2woxywv9mctnq.cloudfront.net
     udp: true
-  - name: Trojan-WS-CDN-xl_opok [id1]
+  - name: Trojan-WS-CDN [id1]
     server: 13.249.231.85
     port: 443
     type: trojan
@@ -25,7 +25,7 @@ proxies:
       headers:
         Host: d2bv7k4k37mb04.cloudfront.net
     udp: true
-  - name: Trojan-WS-CDN-xl_opok [id2]
+  - name: Trojan-WS-CDN [id2]
     server: 13.249.231.85
     port: 443
     type: trojan
@@ -38,7 +38,7 @@ proxies:
       headers:
         Host: d2yn68qsavm47q.cloudfront.net
     udp: true
-  - name: Trojan-WS-CDN-xl_opok [id3]
+  - name: Trojan-WS-CDN [id3]
     server: 13.249.231.85
     port: 443
     type: trojan
