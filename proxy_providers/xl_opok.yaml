@@ -31,12 +31,12 @@ proxies:
     type: trojan
     password: c5c51850bdbc4a9f95b42b8290253f91
     skip-cert-verify: false
-    sni: d2bv7k4k37mb04.cloudfront.net
+    sni: d2yn68qsavm47q.cloudfront.net
     network: ws
     ws-opts:
       path: /cdn-trojan
       headers:
-        Host: d2bv7k4k37mb04.cloudfront.net
+        Host: d2yn68qsavm47q.cloudfront.net
     udp: true
   - name: Trojan-WS-CDN-xl_opok [id3]
     server: 13.249.231.85
@@ -44,12 +44,12 @@ proxies:
     type: trojan
     password: c5c51850bdbc4a9f95b42b8290253f91
     skip-cert-verify: false
-    sni: d2bv7k4k37mb04.cloudfront.net
+    sni: d3scfoym2c1or7.cloudfront.net
     network: ws
     ws-opts:
       path: /cdn-trojan
       headers:
-        Host: d2bv7k4k37mb04.cloudfront.net
+        Host: d3scfoym2c1or7.cloudfront.net
     udp: true
 
 
